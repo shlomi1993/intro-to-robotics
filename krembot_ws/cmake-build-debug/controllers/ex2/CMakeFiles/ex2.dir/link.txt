@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared  -o libex2.so CMakeFiles/ex2.dir/ex2_autogen/mocs_compilation.cpp.o CMakeFiles/ex2.dir/krembot.ino.cpp.o   -L/usr/local/lib/argos3  -Wl,-rpath,/usr/local/lib/argos3 -lKrembot -largos3core_simulator -largos3plugin_simulator_footbot -largos3plugin_simulator_genericrobot 
