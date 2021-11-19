@@ -7,11 +7,15 @@
 
 using namespace std;
 
+/*
+ * Globals:
+ * - SandTimer for rotation time settings.
+ * - Random Generator to generate floats from a known distribution.
+ * - rotation speed should not change beause of the looping.
+ */
 SandTimer timer;
-SandTimer dist_timer;
 default_random_engine generator;
 int8_t rot_speed = 0;
-float stop_dist = 15;
 
 /*
  * Setup Function:
@@ -20,8 +24,6 @@ float stop_dist = 15;
 void ex2_controller::setup() {
     krembot.setup();
     krembot.Led.write(0,255,0);
-    dist_timer.setPeriod(5000);
-    dist_timer.start();
 }
 
 /*
@@ -32,37 +34,25 @@ void ex2_controller::setup() {
  */
 void ex2_controller::loop() {
     krembot.loop();
-    if (dist_timer.finished()) {
-        uniform_int_distribution<int> dist_distribution(1,20);
-        stop_dist = dist_distribution(generator);
-        dist_timer.setPeriod(5000);
-        dist_timer.start();
-        std::cout << "stop_dist = " << stop_dist << std::endl;
-    }
+
+    // If timer is not running, then drive and show green light.
     if (timer.finished()) {
+
+        // Find if one of the front bumpers pressed.
         BumpersRes bumpers = krembot.Bumpers.read();
         bool bumped = bumpers.front == BumperState::PRESSED ||
                       bumpers.front_left == BumperState::PRESSED ||
                       bumpers.front_right == BumperState::PRESSED;
+
+        // If not, drive with green light.
         if (!bumped) {
-            float dist_front = krembot.RgbaFront.readRGBA().Distance;
-            float dist_front_left = krembot.RgbaFrontLeft.readRGBA().Distance;
-            float dist_front_right = krembot.RgbaFrontRight.readRGBA().Distance;
-            if (dist_front > stop_dist &&
-                dist_front_left > stop_dist &&
-                dist_front_right > stop_dist) {
-                krembot.Base.drive(100, 0);
-                krembot.Led.write(0,255,0);
-            } else {
-                if (dist_front_left < dist_front_right) {
-                    krembot.Base.drive(50, -100);
-                    krembot.Led.write(255,165,0);
-                } else {
-                    krembot.Base.drive(50, 100);
-                    krembot.Led.write(255,165,0);
-                }
-            }
-        } else {
+            krembot.Base.drive(100, 0);
+            krembot.Led.write(0,255,0);
+        }
+
+        // If the robot bumped, start timer with random time and generate a new
+        // random rotation speed, for the next iteration.
+        else {
             krembot.Base.stop();
             uniform_int_distribution<int> speed_distribution(-100,100);
             rot_speed = speed_distribution(generator);
@@ -72,8 +62,13 @@ void ex2_controller::loop() {
             timer.start();
             krembot.Led.write(255,0,0);
         }
-    } else {
+
+    }
+
+    // Whenever the timer is running, turn and show red light.
+    else {
         krembot.Base.drive(0, rot_speed);
         krembot.Led.write(255,0,0);
     }
+
 }
