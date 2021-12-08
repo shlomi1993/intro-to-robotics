@@ -1,0 +1,457 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "controllers",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-controllers-Debug-a68de31462664dd2eac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "controllers"
+				},
+				{
+					"build" : "controllers/program_template",
+					"jsonFile" : "directory-controllers.program_template-Debug-995521c0029b0d48082b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/program_template",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "controllers/run_away_by_bumpers",
+					"jsonFile" : "directory-controllers.run_away_by_bumpers-Debug-b7c37e46137f14eb4657.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/run_away_by_bumpers",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "controllers/simple_demo",
+					"jsonFile" : "directory-controllers.simple_demo-Debug-915ce78fc07a8bc60f78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/simple_demo",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "controllers/porting_example",
+					"jsonFile" : "directory-controllers.porting_example-Debug-d4d0dbef3cebd8d3c93f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/porting_example",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "controllers/sand_timer_test",
+					"jsonFile" : "directory-controllers.sand_timer_test-Debug-bf93c68caa1e0a62c97b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/sand_timer_test",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "controllers/ex1",
+					"jsonFile" : "directory-controllers.ex1-Debug-ab1c7f5bab9731dfd185.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/ex1",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "controllers/ex2",
+					"jsonFile" : "directory-controllers.ex2-Debug-8bac9bf8a55e5c791f87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/ex2",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "controllers/PRM",
+					"jsonFile" : "directory-controllers.PRM-Debug-560b195535a7e5a79023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/PRM",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "loop_functions",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13
+					],
+					"jsonFile" : "directory-loop_functions-Debug-8c5d5eebc0faba3f1d6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "loop_functions"
+				},
+				{
+					"build" : "loop_functions/id_loop_functions",
+					"jsonFile" : "directory-loop_functions.id_loop_functions-Debug-b8ac3081eb920c442b29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "loop_functions/id_loop_functions",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "loop_functions/trajectory_loop_functions",
+					"jsonFile" : "directory-loop_functions.trajectory_loop_functions-Debug-c07dfb147eaa86f4bf70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "loop_functions/trajectory_loop_functions",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"build" : "loop_functions/pos_and_map_loop_functions",
+					"jsonFile" : "directory-loop_functions.pos_and_map_loop_functions-Debug-034b606957cfc4960cc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "loop_functions/pos_and_map_loop_functions",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "argos3_user",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "PRM::@eb0923c7f75198d03304",
+					"jsonFile" : "target-PRM-Debug-9e57780c7cb99d4d25f6.json",
+					"name" : "PRM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "PRM_autogen::@eb0923c7f75198d03304",
+					"jsonFile" : "target-PRM_autogen-Debug-9073e671b483aa4cafab.json",
+					"name" : "PRM_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ex1::@bf24d1cd08ead5a2326b",
+					"jsonFile" : "target-ex1-Debug-e397ab0761a5a84707af.json",
+					"name" : "ex1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ex1_autogen::@bf24d1cd08ead5a2326b",
+					"jsonFile" : "target-ex1_autogen-Debug-9ae64682b1e45e3269e3.json",
+					"name" : "ex1_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ex2::@0b1bfbfc13e994e41410",
+					"jsonFile" : "target-ex2-Debug-0243ea4c91dfd4528b19.json",
+					"name" : "ex2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ex2_autogen::@0b1bfbfc13e994e41410",
+					"jsonFile" : "target-ex2_autogen-Debug-f5968ac90576f0fc0d72.json",
+					"name" : "ex2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "id_loop_functions::@2df95991c3dbc863b26d",
+					"jsonFile" : "target-id_loop_functions-Debug-990edc2ef7a011ffcf23.json",
+					"name" : "id_loop_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "id_loop_functions_autogen::@2df95991c3dbc863b26d",
+					"jsonFile" : "target-id_loop_functions_autogen-Debug-790f0b34273bdbad6662.json",
+					"name" : "id_loop_functions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "porting_example::@31ef620846cbd3756e0f",
+					"jsonFile" : "target-porting_example-Debug-6ca73c466e4247ce7863.json",
+					"name" : "porting_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "porting_example_autogen::@31ef620846cbd3756e0f",
+					"jsonFile" : "target-porting_example_autogen-Debug-ee8d7556d1ff93a69555.json",
+					"name" : "porting_example_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "pos_and_map_loop_functions::@540fdc5be939e574de8f",
+					"jsonFile" : "target-pos_and_map_loop_functions-Debug-fae3a8198396b8a73547.json",
+					"name" : "pos_and_map_loop_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "pos_and_map_loop_functions_autogen::@540fdc5be939e574de8f",
+					"jsonFile" : "target-pos_and_map_loop_functions_autogen-Debug-120f33b7bd854c894d49.json",
+					"name" : "pos_and_map_loop_functions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "program_template::@c2e0f23b348b27695366",
+					"jsonFile" : "target-program_template-Debug-048b778d449cd3961a09.json",
+					"name" : "program_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "program_template_autogen::@c2e0f23b348b27695366",
+					"jsonFile" : "target-program_template_autogen-Debug-0ea9af785f20aac6e072.json",
+					"name" : "program_template_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "run_away_by_bumpers::@291cc292331e8775cdbc",
+					"jsonFile" : "target-run_away_by_bumpers-Debug-49074454cf59982a89b0.json",
+					"name" : "run_away_by_bumpers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "run_away_by_bumpers_autogen::@291cc292331e8775cdbc",
+					"jsonFile" : "target-run_away_by_bumpers_autogen-Debug-8910ab67fc990e6ebde6.json",
+					"name" : "run_away_by_bumpers_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sand_timer_test::@a6e4dd4a379c782d1c7a",
+					"jsonFile" : "target-sand_timer_test-Debug-a81828b3f5ea2cc1b32b.json",
+					"name" : "sand_timer_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sand_timer_test_autogen::@a6e4dd4a379c782d1c7a",
+					"jsonFile" : "target-sand_timer_test_autogen-Debug-5ec549e8b664f7aef417.json",
+					"name" : "sand_timer_test_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "simple_demo::@1071420f17820d2bf5b1",
+					"jsonFile" : "target-simple_demo-Debug-5ec853ea90e5a81b4608.json",
+					"name" : "simple_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "simple_demo_autogen::@1071420f17820d2bf5b1",
+					"jsonFile" : "target-simple_demo_autogen-Debug-8434cc37227195e3031d.json",
+					"name" : "simple_demo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "trajectory_loop_functions::@92ea558208221cf8e2f6",
+					"jsonFile" : "target-trajectory_loop_functions-Debug-1e250567d7fa5e9c2e2b.json",
+					"name" : "trajectory_loop_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "trajectory_loop_functions_autogen::@92ea558208221cf8e2f6",
+					"jsonFile" : "target-trajectory_loop_functions_autogen-Debug-59f9b25c2d9c80ea0505.json",
+					"name" : "trajectory_loop_functions_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug",
+		"source" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

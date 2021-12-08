@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shlomi/krembot_ws/controllers/run_away_by_bumpers/krembot.ino.cpp" "/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/krembot.ino.cpp.o"
-  "/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/mocs_compilation.cpp" "/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/run_away_by_bumpers_autogen/mocs_compilation.cpp.o"
+  "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers/krembot.ino.cpp" "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/krembot.ino.cpp.o"
+  "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/mocs_compilation.cpp" "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/run_away_by_bumpers_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

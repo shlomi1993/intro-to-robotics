@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/mocs_compilation.cpp" "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/ex2_autogen/mocs_compilation.cpp.o"
-  "/home/shlomi/krembot_ws/controllers/ex2/krembot.ino.cpp" "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/krembot.ino.cpp.o"
+  "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/mocs_compilation.cpp" "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/ex2_autogen/mocs_compilation.cpp.o"
+  "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex2/krembot.ino.cpp" "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/krembot.ino.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

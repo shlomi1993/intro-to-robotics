@@ -5,41 +5,41 @@
 		<Option title="argos3_user"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\argos3\;CMake Files\..\..\..\usr\local\share\argos3\cmake\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\controllers\;CMake Files\controllers\program_template\;CMake Files\controllers\run_away_by_bumpers\;CMake Files\controllers\simple_demo\;CMake Files\controllers\porting_example\;CMake Files\controllers\sand_timer_test\;CMake Files\controllers\ex1\;CMake Files\controllers\ex2\;CMake Files\loop_functions\;CMake Files\loop_functions\id_loop_functions\;CMake Files\loop_functions\trajectory_loop_functions\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\argos3\;CMake Files\..\..\..\..\..\..\usr\local\share\argos3\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\controllers\;CMake Files\controllers\program_template\;CMake Files\controllers\run_away_by_bumpers\;CMake Files\controllers\simple_demo\;CMake Files\controllers\porting_example\;CMake Files\controllers\sand_timer_test\;CMake Files\controllers\ex1\;CMake Files\controllers\ex2\;CMake Files\controllers\PRM\;CMake Files\loop_functions\;CMake Files\loop_functions\id_loop_functions\;CMake Files\loop_functions\trajectory_loop_functions\;CMake Files\loop_functions\pos_and_map_loop_functions\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="program_template">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/libprogram_template.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/libprogram_template.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -50,17 +50,17 @@
 					<Add option="-DCONTROLLER_NAME=program_template_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;program_template_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/program_template"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/program_template_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/program_template"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/program_template_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -70,15 +70,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 program_template"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 program_template"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="program_template/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/libprogram_template.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/libprogram_template.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -89,17 +89,17 @@
 					<Add option="-DCONTROLLER_NAME=program_template_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;program_template_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/program_template"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/program_template_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/program_template"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/program_template_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -109,25 +109,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 program_template/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 program_template/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="program_template_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 program_template_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 program_template_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_away_by_bumpers">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/librun_away_by_bumpers.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/librun_away_by_bumpers.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -137,17 +137,17 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DCONTROLLER_NAME=run_away_by_bumpers_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;run_away_by_bumpers_controller&quot;"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/run_away_by_bumpers"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -157,15 +157,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 run_away_by_bumpers"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 run_away_by_bumpers"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_away_by_bumpers/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/librun_away_by_bumpers.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/librun_away_by_bumpers.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -175,17 +175,17 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DCONTROLLER_NAME=run_away_by_bumpers_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;run_away_by_bumpers_controller&quot;"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/run_away_by_bumpers"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -195,25 +195,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 run_away_by_bumpers/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 run_away_by_bumpers/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_away_by_bumpers_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 run_away_by_bumpers_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 run_away_by_bumpers_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="simple_demo">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/libsimple_demo.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/libsimple_demo.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -223,17 +223,17 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DCONTROLLER_NAME=simple_demo_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;simple_demo_controller&quot;"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/simple_demo"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/simple_demo_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/simple_demo"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/simple_demo_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -243,15 +243,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 simple_demo"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 simple_demo"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="simple_demo/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/libsimple_demo.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/libsimple_demo.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -261,17 +261,17 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DCONTROLLER_NAME=simple_demo_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;simple_demo_controller&quot;"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/simple_demo"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/simple_demo_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/simple_demo"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/simple_demo_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -281,25 +281,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 simple_demo/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 simple_demo/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="simple_demo_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 simple_demo_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 simple_demo_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="porting_example">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/libporting_example.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/libporting_example.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -310,17 +310,17 @@
 					<Add option="-DCONTROLLER_NAME=porting_example_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;porting_example_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/porting_example"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -330,15 +330,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 porting_example"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 porting_example"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="porting_example/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/libporting_example.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/libporting_example.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -349,17 +349,17 @@
 					<Add option="-DCONTROLLER_NAME=porting_example_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;porting_example_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/porting_example"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -369,25 +369,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 porting_example/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 porting_example/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="porting_example_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 porting_example_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 porting_example_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sand_timer_test">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/libsand_timer_test.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/libsand_timer_test.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -398,17 +398,17 @@
 					<Add option="-DCONTROLLER_NAME=sand_timer_test_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;sand_timer_test_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/sand_timer_test"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/sand_timer_test_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/sand_timer_test"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/sand_timer_test_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -418,15 +418,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 sand_timer_test"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 sand_timer_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sand_timer_test/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/libsand_timer_test.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/libsand_timer_test.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -437,17 +437,17 @@
 					<Add option="-DCONTROLLER_NAME=sand_timer_test_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;sand_timer_test_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/sand_timer_test"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/sand_timer_test_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/sand_timer_test"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/sand_timer_test_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -457,25 +457,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 sand_timer_test/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 sand_timer_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sand_timer_test_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 sand_timer_test_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 sand_timer_test_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex1">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/libex1.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/libex1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -486,17 +486,17 @@
 					<Add option="-DCONTROLLER_NAME=ex1_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;ex1_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/ex1"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -506,15 +506,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 ex1"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 ex1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex1/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/libex1.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/libex1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -525,17 +525,17 @@
 					<Add option="-DCONTROLLER_NAME=ex1_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;ex1_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/ex1"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -545,25 +545,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 ex1/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 ex1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex1_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 ex1_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 ex1_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex2">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/libex2.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/libex2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -574,17 +574,17 @@
 					<Add option="-DCONTROLLER_NAME=ex2_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;ex2_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/ex2"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -594,15 +594,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 ex2"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 ex2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex2/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/libex2.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/libex2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -613,17 +613,17 @@
 					<Add option="-DCONTROLLER_NAME=ex2_controller"/>
 					<Add option="-DCONTROLLER_LABEL=&quot;ex2_controller&quot;"/>
 					<Add option="-DKREMBOT_SIM"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers/ex2"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
-					<Add directory="/home/shlomi/krembot_ws/controllers"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -633,25 +633,113 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 ex2/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 ex2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex2_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 ex2_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 ex2_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PRM">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/libPRM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=PRM_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;PRM_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/PRM_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 PRM"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PRM/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/libPRM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=PRM_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;PRM_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/PRM_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 PRM/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PRM_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 PRM_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="id_loop_functions">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/libid_loop_functions.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/libid_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -659,10 +747,10 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/loop_functions/id_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/id_loop_functions_autogen/include"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/id_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/id_loop_functions_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
@@ -678,15 +766,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 id_loop_functions"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 id_loop_functions"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="id_loop_functions/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/libid_loop_functions.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/libid_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -694,10 +782,10 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/loop_functions/id_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/id_loop_functions_autogen/include"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/id_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/id_loop_functions_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
@@ -713,25 +801,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 id_loop_functions/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 id_loop_functions/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="id_loop_functions_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 id_loop_functions_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 id_loop_functions_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trajectory_loop_functions">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/libtrajectory_loop_functions.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/libtrajectory_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -739,10 +827,10 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/include"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
@@ -758,15 +846,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 trajectory_loop_functions"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 trajectory_loop_functions"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trajectory_loop_functions/fast">
-				<Option output="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/libtrajectory_loop_functions.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/libtrajectory_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -774,10 +862,10 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions"/>
-					<Add directory="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/include"/>
-					<Add directory="/home/shlomi/krembot_ws"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
 					<Add directory="/usr/include/lua5.2"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
@@ -793,250 +881,357 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 trajectory_loop_functions/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 trajectory_loop_functions/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trajectory_loop_functions_autogen">
-				<Option working_dir="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 trajectory_loop_functions_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 trajectory_loop_functions_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pos_and_map_loop_functions">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/libpos_and_map_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/pos_and_map_loop_functions_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 pos_and_map_loop_functions"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pos_and_map_loop_functions/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/libpos_and_map_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/pos_and_map_loop_functions_autogen/include"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 pos_and_map_loop_functions/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pos_and_map_loop_functions_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 pos_and_map_loop_functions_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/PRM_autogen/mocs_compilation.cpp">
+			<Option target="PRM"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/mocs_compilation.cpp">
 			<Option target="ex1"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/mocs_compilation.cpp">
 			<Option target="ex2"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/mocs_compilation.cpp">
 			<Option target="porting_example"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/program_template_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/program_template_autogen/mocs_compilation.cpp">
 			<Option target="program_template"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/mocs_compilation.cpp">
 			<Option target="run_away_by_bumpers"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/sand_timer_test_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/sand_timer_test_autogen/mocs_compilation.cpp">
 			<Option target="sand_timer_test"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/simple_demo_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/simple_demo_autogen/mocs_compilation.cpp">
 			<Option target="simple_demo"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/id_loop_functions_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/id_loop_functions_autogen/mocs_compilation.cpp">
 			<Option target="id_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/pos_and_map_loop_functions_autogen/mocs_compilation.cpp">
+			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/mocs_compilation.cpp">
 			<Option target="trajectory_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/ex1/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/krembot.ino.cpp">
+			<Option target="PRM"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/krembot.ino.cpp">
 			<Option target="ex1"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/ex2/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex2/krembot.ino.cpp">
 			<Option target="ex2"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/porting_example/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example/krembot.ino.cpp">
 			<Option target="porting_example"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/porting_example/my_code/MyCode.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example/my_code/MyCode.cpp">
 			<Option target="porting_example"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/porting_example/my_code/MyCode.h">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example/my_code/MyCode.h">
 			<Option target="porting_example"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/program_template/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/program_template/krembot.ino.cpp">
 			<Option target="program_template"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/run_away_by_bumpers/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers/krembot.ino.cpp">
 			<Option target="run_away_by_bumpers"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/sand_timer_test/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/sand_timer_test/krembot.ino.cpp">
 			<Option target="sand_timer_test"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/simple_demo/krembot.ino.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/simple_demo/krembot.ino.cpp">
 			<Option target="simple_demo"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/id_loop_functions/id_qtuser_functions.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/id_loop_functions/id_qtuser_functions.cpp">
 			<Option target="id_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/id_loop_functions/id_qtuser_functions.h">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/id_loop_functions/id_qtuser_functions.h">
 			<Option target="id_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/pos_and_map_loop_functions.cpp">
+			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/pos_and_map_loop_functions.h">
+			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/pos_and_map_trajectory_qtuser_functions.cpp">
+			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/pos_and_map_trajectory_qtuser_functions.h">
+			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.cpp">
 			<Option target="trajectory_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h">
 			<Option target="trajectory_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.cpp">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.cpp">
 			<Option target="trajectory_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.h">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.h">
 			<Option target="trajectory_loop_functions"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/local/share/argos3/cmake/ARGoSCheckQTOpenGL.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\argos3\cmake\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/local/share/argos3/cmake/ARGoSCheckQTOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\argos3\cmake\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/program_template/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/program_template/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\program_template\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/run_away_by_bumpers/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\run_away_by_bumpers\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/simple_demo/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/simple_demo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\simple_demo\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/porting_example/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\porting_example\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/sand_timer_test/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/sand_timer_test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\sand_timer_test\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/ex1/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\ex1\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/controllers/ex2/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\ex2\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controllers\PRM\"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\loop_functions\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/id_loop_functions/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/id_loop_functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\loop_functions\id_loop_functions\"/>
 		</Unit>
-		<Unit filename="/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/CMakeLists.txt">
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\loop_functions\trajectory_loop_functions\"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\loop_functions\pos_and_map_loop_functions\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -1,4 +1,4 @@
-# Install script for directory: /home/shlomi/krembot_ws/controllers
+# Install script for directory: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/program_template/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/simple_demo/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/porting_example/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/sand_timer_test/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex2/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/program_template/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/simple_demo/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/sand_timer_test/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/cmake_install.cmake")
 
 endif()
 

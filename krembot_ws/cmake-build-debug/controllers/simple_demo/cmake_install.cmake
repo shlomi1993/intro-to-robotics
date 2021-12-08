@@ -1,4 +1,4 @@
-# Install script for directory: /home/shlomi/krembot_ws/controllers/simple_demo
+# Install script for directory: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/simple_demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

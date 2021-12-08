@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/mocs_compilation.cpp
+
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/krembot.ino.cpp
+krembot.ino.h
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/krembot.ino.h
+
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/krembot.ino.h
+Krembot/controller/krembot_controller.h
+-
+

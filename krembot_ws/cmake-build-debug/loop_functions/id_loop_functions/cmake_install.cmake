@@ -1,4 +1,4 @@
-# Install script for directory: /home/shlomi/krembot_ws/loop_functions/id_loop_functions
+# Install script for directory: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/id_loop_functions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
