@@ -1,34 +1,34 @@
 {
-	"BUILD_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen",
-	"CMAKE_BINARY_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions",
-	"CMAKE_EXECUTABLE" : "/snap/clion/169/bin/cmake/linux/bin/cmake",
+	"BUILD_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen",
+	"CMAKE_BINARY_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions",
+	"CMAKE_EXECUTABLE" : "/snap/clion/175/bin/cmake/linux/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/CMakeLists.txt"
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/CMakeLists.txt"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/shlomi/krembot_ws",
+	"CMAKE_SOURCE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h",
+			"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h",
 			"Mu",
 			"EWIEGA46WW/moc_trajectory_loop_functions.cpp",
 			null
 		],
 		[
-			"/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.h",
+			"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.h",
 			"Mu",
 			"EWIEGA46WW/moc_trajectory_qtuser_functions.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -45,9 +45,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions",
-		"/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions",
-		"/home/shlomi/krembot_ws",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws",
 		"/usr/include/lua5.2",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
@@ -71,28 +71,28 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+		"/snap/clion/175/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 1,
-	"PARSE_CACHE_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.cpp",
+			"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/shlomi/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.cpp",
+			"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.cpp",
 			"Mu",
 			null
 		]

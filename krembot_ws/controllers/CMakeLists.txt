@@ -13,3 +13,4 @@ add_subdirectory(sand_timer_test)
 # User Controllers:
 add_subdirectory(ex1)
 add_subdirectory(ex2)
+add_subdirectory(PRM)

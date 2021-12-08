@@ -1,4 +1,4 @@
-# Install script for directory: /home/shlomi/krembot_ws/loop_functions
+# Install script for directory: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/cmake_install.cmake")
-  include("/home/shlomi/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/cmake_install.cmake")
 
 endif()
 

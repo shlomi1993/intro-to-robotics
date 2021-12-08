@@ -1,4 +1,4 @@
-/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/shlomi/krembot_ws
+/snap/clion/175/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws
 CMake Warning at CMakeLists.txt:38 (find_package):
   By not providing "FindGALIB.cmake" in CMAKE_MODULE_PATH this project has
   asked CMake to find a package configuration file provided by "GALIB", but
@@ -18,4 +18,4 @@ CMake Warning at CMakeLists.txt:38 (find_package):
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/shlomi/krembot_ws/cmake-build-debug
+-- Build files have been written to: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug

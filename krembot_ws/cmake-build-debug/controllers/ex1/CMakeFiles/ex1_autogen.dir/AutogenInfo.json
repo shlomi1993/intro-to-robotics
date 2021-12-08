@@ -1,25 +1,28 @@
 {
-	"BUILD_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen",
-	"CMAKE_BINARY_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/shlomi/krembot_ws/controllers/ex1",
-	"CMAKE_EXECUTABLE" : "/snap/clion/169/bin/cmake/linux/bin/cmake",
-	"CMAKE_LIST_FILES" : [ "/home/shlomi/krembot_ws/controllers/ex1/CMakeLists.txt" ],
-	"CMAKE_SOURCE_DIR" : "/home/shlomi/krembot_ws",
+	"BUILD_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen",
+	"CMAKE_BINARY_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1",
+	"CMAKE_EXECUTABLE" : "/snap/clion/175/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/shlomi/krembot_ws/controllers/ex1/krembot.ino.h",
+			"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/krembot.ino.h",
 			"Mu",
 			"EWIEGA46WW/moc_krembot.ino.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"CONTROLLER_LABEL=\"ex1_controller\"",
@@ -39,16 +42,16 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1",
-		"/home/shlomi/krembot_ws/controllers/ex1",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
-		"/home/shlomi/krembot_ws",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws",
 		"/usr/include/lua5.2",
-		"/home/shlomi/krembot_ws/controllers",
+		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers",
 		"/usr/local/include",
 		"/usr/include/c++/9",
 		"/usr/include/x86_64-linux-gnu/c++/9",
@@ -66,22 +69,26 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+		"/snap/clion/175/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/ex1_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 1,
-	"PARSE_CACHE_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/shlomi/krembot_ws/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/shlomi/krembot_ws/controllers/ex1/krembot.ino.cpp", "Mu", null ]
+		[
+			"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex1/krembot.ino.cpp",
+			"Mu",
+			null
+		]
 	],
 	"VERBOSITY" : 0
 }

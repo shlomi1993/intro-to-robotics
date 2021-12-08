@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/walkingOnGrid/walkingOnGrid_autogen/mocs_compilation.cpp
+
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/walkingOnGrid/krembot.ino.cpp
+krembot.ino.h
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/walkingOnGrid/krembot.ino.h
+
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/walkingOnGrid/krembot.ino.h
+Krembot/controller/krembot_controller.h
+-
+queue
+-
+

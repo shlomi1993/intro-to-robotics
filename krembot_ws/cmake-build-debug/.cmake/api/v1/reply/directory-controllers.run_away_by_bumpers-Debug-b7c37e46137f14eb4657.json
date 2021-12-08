@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "controllers/run_away_by_bumpers",
+		"source" : "controllers/run_away_by_bumpers"
+	}
+}
