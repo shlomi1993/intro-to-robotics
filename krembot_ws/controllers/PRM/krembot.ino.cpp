@@ -104,4 +104,6 @@ void PRM_controller::loop() {
     pos = posMsg.pos;
     degreeX = posMsg.degreeX;
 
+    krembot.Base.drive(100, 0);
+
 }
