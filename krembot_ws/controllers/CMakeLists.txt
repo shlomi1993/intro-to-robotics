@@ -14,5 +14,3 @@ add_subdirectory(sand_timer_test)
 add_subdirectory(ex1)
 add_subdirectory(ex2)
 add_subdirectory(PRM)
-add_subdirectory(debug)
-
