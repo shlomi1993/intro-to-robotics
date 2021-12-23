@@ -10,9 +10,10 @@ add_definitions(
 )
 
 set(SRC_FILES
+        kdtree.cpp
         krembot.ino.cpp
         #todo: list here additional cpp files
-        )
+        logger.cpp logger.h)
 
 add_library(${PROGRAM_NAME} MODULE ${SRC_FILES})
 

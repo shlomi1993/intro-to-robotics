@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						10
+						11
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -30,7 +30,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-controllers-Debug-a68de31462664dd2eac5.json",
 					"minimumCMakeVersion" : 
@@ -53,8 +54,8 @@
 					"source" : "controllers/program_template",
 					"targetIndexes" : 
 					[
-						12,
-						13
+						14,
+						15
 					]
 				},
 				{
@@ -69,8 +70,8 @@
 					"source" : "controllers/run_away_by_bumpers",
 					"targetIndexes" : 
 					[
-						14,
-						15
+						16,
+						17
 					]
 				},
 				{
@@ -85,8 +86,8 @@
 					"source" : "controllers/simple_demo",
 					"targetIndexes" : 
 					[
-						18,
-						19
+						20,
+						21
 					]
 				},
 				{
@@ -101,8 +102,8 @@
 					"source" : "controllers/porting_example",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
@@ -117,8 +118,8 @@
 					"source" : "controllers/sand_timer_test",
 					"targetIndexes" : 
 					[
-						16,
-						17
+						18,
+						19
 					]
 				},
 				{
@@ -133,8 +134,8 @@
 					"source" : "controllers/ex1",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						4,
+						5
 					]
 				},
 				{
@@ -149,8 +150,8 @@
 					"source" : "controllers/ex2",
 					"targetIndexes" : 
 					[
-						4,
-						5
+						6,
+						7
 					]
 				},
 				{
@@ -170,12 +171,28 @@
 					]
 				},
 				{
+					"build" : "controllers/debug",
+					"jsonFile" : "directory-controllers.debug-Debug-66468caaca89487aa9e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "controllers/debug",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
 					"build" : "loop_functions",
 					"childIndexes" : 
 					[
-						11,
 						12,
-						13
+						13,
+						14
 					],
 					"jsonFile" : "directory-loop_functions-Debug-8c5d5eebc0faba3f1d6e.json",
 					"minimumCMakeVersion" : 
@@ -193,13 +210,13 @@
 					{
 						"string" : "2.8.12"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 11,
 					"projectIndex" : 0,
 					"source" : "loop_functions/id_loop_functions",
 					"targetIndexes" : 
 					[
-						6,
-						7
+						8,
+						9
 					]
 				},
 				{
@@ -209,13 +226,13 @@
 					{
 						"string" : "2.8.12"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 11,
 					"projectIndex" : 0,
 					"source" : "loop_functions/trajectory_loop_functions",
 					"targetIndexes" : 
 					[
-						20,
-						21
+						22,
+						23
 					]
 				},
 				{
@@ -225,13 +242,13 @@
 					{
 						"string" : "2.8.12"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 11,
 					"projectIndex" : 0,
 					"source" : "loop_functions/pos_and_map_loop_functions",
 					"targetIndexes" : 
 					[
-						10,
-						11
+						12,
+						13
 					]
 				}
 			],
@@ -254,7 +271,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					],
 					"name" : "argos3_user",
 					"targetIndexes" : 
@@ -280,7 +298,9 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22,
+						23
 					]
 				}
 			],
@@ -289,7 +309,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "PRM::@eb0923c7f75198d03304",
-					"jsonFile" : "target-PRM-Debug-9e57780c7cb99d4d25f6.json",
+					"jsonFile" : "target-PRM-Debug-81c060c777de659e4ef0.json",
 					"name" : "PRM",
 					"projectIndex" : 0
 				},
@@ -298,6 +318,20 @@
 					"id" : "PRM_autogen::@eb0923c7f75198d03304",
 					"jsonFile" : "target-PRM_autogen-Debug-9073e671b483aa4cafab.json",
 					"name" : "PRM_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "debug::@e2da1498b58ccb73cfb1",
+					"jsonFile" : "target-debug-Debug-454a503a8e8fc2213f06.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "debug_autogen::@e2da1498b58ccb73cfb1",
+					"jsonFile" : "target-debug_autogen-Debug-af30abec36a2fc7a7823.json",
+					"name" : "debug_autogen",
 					"projectIndex" : 0
 				},
 				{
@@ -329,14 +363,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "id_loop_functions::@2df95991c3dbc863b26d",
 					"jsonFile" : "target-id_loop_functions-Debug-990edc2ef7a011ffcf23.json",
 					"name" : "id_loop_functions",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "id_loop_functions_autogen::@2df95991c3dbc863b26d",
 					"jsonFile" : "target-id_loop_functions_autogen-Debug-790f0b34273bdbad6662.json",
 					"name" : "id_loop_functions_autogen",
@@ -357,14 +391,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "pos_and_map_loop_functions::@540fdc5be939e574de8f",
 					"jsonFile" : "target-pos_and_map_loop_functions-Debug-fae3a8198396b8a73547.json",
 					"name" : "pos_and_map_loop_functions",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "pos_and_map_loop_functions_autogen::@540fdc5be939e574de8f",
 					"jsonFile" : "target-pos_and_map_loop_functions_autogen-Debug-120f33b7bd854c894d49.json",
 					"name" : "pos_and_map_loop_functions_autogen",
@@ -427,14 +461,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "trajectory_loop_functions::@92ea558208221cf8e2f6",
 					"jsonFile" : "target-trajectory_loop_functions-Debug-1e250567d7fa5e9c2e2b.json",
 					"name" : "trajectory_loop_functions",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "trajectory_loop_functions_autogen::@92ea558208221cf8e2f6",
 					"jsonFile" : "target-trajectory_loop_functions_autogen-Debug-59f9b25c2d9c80ea0505.json",
 					"name" : "trajectory_loop_functions_autogen",

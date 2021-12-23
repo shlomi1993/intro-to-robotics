@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/175/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/177/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/175/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/177/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ include controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.d
 
 controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target run_away_by_bumpers"
-	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers && /snap/clion/175/bin/cmake/linux/bin/cmake -E cmake_autogen /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/AutogenInfo.json Debug
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers && /snap/clion/177/bin/cmake/linux/bin/cmake -E cmake_autogen /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/AutogenInfo.json Debug
 
 run_away_by_bumpers_autogen: controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen
 run_away_by_bumpers_autogen: controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/build.make

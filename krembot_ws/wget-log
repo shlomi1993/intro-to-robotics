@@ -1,11 +1,0 @@
---2021-12-11 13:57:28--  https://drive.google.com/u/0/uc?id=1oO2lb2LuLq4IrZmNMiJurWTotHp_pDye
-Resolving drive.google.com (drive.google.com)... 142.250.186.46, 2a00:1450:4001:810::200e
-Connecting to drive.google.com (drive.google.com)|142.250.186.46|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘uc?id=1oO2lb2LuLq4IrZmNMiJurWTotHp_pDye’
-
-uc?id=1oO2lb2LuLq4IrZmNMiJurWTotHp_pD     [<=>                                                                       ]       0  --.-KB/s               uc?id=1oO2lb2LuLq4IrZmNMiJurWTotHp_pD     [ <=>                                                                      ]   3.18K  --.-KB/s    in 0.002s  
-
-2021-12-11 13:57:49 (1.27 MB/s) - ‘uc?id=1oO2lb2LuLq4IrZmNMiJurWTotHp_pDye’ saved [3255]
-

@@ -34,6 +34,10 @@
 /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/CMakeFiles/rebuild_cache.dir
 /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir
 /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/debug/CMakeFiles/rebuild_cache.dir
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/debug/CMakeFiles/edit_cache.dir
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/debug/CMakeFiles/debug.dir
+/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/debug/CMakeFiles/debug_autogen.dir
 /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/CMakeFiles/rebuild_cache.dir
 /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/CMakeFiles/edit_cache.dir
 /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/rebuild_cache.dir

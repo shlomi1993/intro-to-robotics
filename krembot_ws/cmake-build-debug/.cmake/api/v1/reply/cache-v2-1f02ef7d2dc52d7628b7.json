@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/175/bin/cmake/linux/bin/cmake"
+			"value" : "/snap/clion/177/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/175/bin/cmake/linux/bin/cpack"
+			"value" : "/snap/clion/177/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/175/bin/cmake/linux/bin/ctest"
+			"value" : "/snap/clion/177/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "14"
+			"value" : "15"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1411,7 +1411,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/175/bin/cmake/linux/share/cmake-3.21"
+			"value" : "/snap/clion/177/bin/cmake/linux/share/cmake-3.21"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -2500,6 +2500,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"
+		},
+		{
+			"name" : "debug_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;Krembot;general;argos3core_simulator;general;argos3plugin_simulator_footbot;general;argos3plugin_simulator_genericrobot;"
 		},
 		{
 			"name" : "ex1_LIB_DEPENDS",

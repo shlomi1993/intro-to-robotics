@@ -4,5 +4,4 @@
 controllers/ex1/CMakeFiles/ex1.dir/ex1_autogen/mocs_compilation.cpp.o: \
  controllers/ex1/ex1_autogen/mocs_compilation.cpp
 controllers/ex1/CMakeFiles/ex1.dir/krembot.ino.cpp.o: \
- ../controllers/ex1/krembot.ino.cpp \
- ../controllers/ex1/krembot.ino.h
+ ../controllers/ex1/krembot.ino.cpp
