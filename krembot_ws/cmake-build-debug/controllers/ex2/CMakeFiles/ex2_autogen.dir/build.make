@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/175/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/177/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/175/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/177/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ include controllers/ex2/CMakeFiles/ex2_autogen.dir/progress.make
 
 controllers/ex2/CMakeFiles/ex2_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target ex2"
-	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2 && /snap/clion/175/bin/cmake/linux/bin/cmake -E cmake_autogen /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/AutogenInfo.json Debug
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2 && /snap/clion/177/bin/cmake/linux/bin/cmake -E cmake_autogen /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/AutogenInfo.json Debug
 
 ex2_autogen: controllers/ex2/CMakeFiles/ex2_autogen
 ex2_autogen: controllers/ex2/CMakeFiles/ex2_autogen.dir/build.make

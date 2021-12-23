@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/175/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/177/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/175/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/177/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cm
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/175/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/177/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/175/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/177/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -168,6 +168,30 @@ PRM_autogen/mocs_compilation.cpp.s:
 	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/PRM_autogen/mocs_compilation.cpp.s
 .PHONY : PRM_autogen/mocs_compilation.cpp.s
 
+kdtree.o: kdtree.cpp.o
+.PHONY : kdtree.o
+
+# target to build an object file
+kdtree.cpp.o:
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.o
+.PHONY : kdtree.cpp.o
+
+kdtree.i: kdtree.cpp.i
+.PHONY : kdtree.i
+
+# target to preprocess a source file
+kdtree.cpp.i:
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.i
+.PHONY : kdtree.cpp.i
+
+kdtree.s: kdtree.cpp.s
+.PHONY : kdtree.s
+
+# target to generate assembly for a file
+kdtree.cpp.s:
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.s
+.PHONY : kdtree.cpp.s
+
 krembot.ino.o: krembot.ino.cpp.o
 .PHONY : krembot.ino.o
 
@@ -192,6 +216,30 @@ krembot.ino.cpp.s:
 	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.s
 .PHONY : krembot.ino.cpp.s
 
+logger.o: logger.cpp.o
+.PHONY : logger.o
+
+# target to build an object file
+logger.cpp.o:
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.o
+.PHONY : logger.cpp.o
+
+logger.i: logger.cpp.i
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cpp.i:
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.i
+.PHONY : logger.cpp.i
+
+logger.s: logger.cpp.s
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cpp.s:
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug && $(MAKE) $(MAKESILENT) -f controllers/PRM/CMakeFiles/PRM.dir/build.make controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.s
+.PHONY : logger.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,9 +253,15 @@ help:
 	@echo "... PRM_autogen/mocs_compilation.o"
 	@echo "... PRM_autogen/mocs_compilation.i"
 	@echo "... PRM_autogen/mocs_compilation.s"
+	@echo "... kdtree.o"
+	@echo "... kdtree.i"
+	@echo "... kdtree.s"
 	@echo "... krembot.ino.o"
 	@echo "... krembot.ino.i"
 	@echo "... krembot.ino.s"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 .PHONY : help
 
 

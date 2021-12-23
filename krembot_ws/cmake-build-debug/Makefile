@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/175/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/177/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/175/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/177/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cm
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/175/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/177/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/175/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/177/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -325,6 +325,32 @@ PRM_autogen/fast:
 .PHONY : PRM_autogen/fast
 
 #=============================================================================
+# Target rules for targets named debug
+
+# Build rule for target.
+debug: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 debug
+.PHONY : debug
+
+# fast build rule for target.
+debug/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/debug/CMakeFiles/debug.dir/build.make controllers/debug/CMakeFiles/debug.dir/build
+.PHONY : debug/fast
+
+#=============================================================================
+# Target rules for targets named debug_autogen
+
+# Build rule for target.
+debug_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 debug_autogen
+.PHONY : debug_autogen
+
+# fast build rule for target.
+debug_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/debug/CMakeFiles/debug_autogen.dir/build.make controllers/debug/CMakeFiles/debug_autogen.dir/build
+.PHONY : debug_autogen/fast
+
+#=============================================================================
 # Target rules for targets named id_loop_functions
 
 # Build rule for target.
@@ -411,6 +437,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PRM_autogen"
+	@echo "... debug_autogen"
 	@echo "... ex1_autogen"
 	@echo "... ex2_autogen"
 	@echo "... id_loop_functions_autogen"
@@ -422,6 +449,7 @@ help:
 	@echo "... simple_demo_autogen"
 	@echo "... trajectory_loop_functions_autogen"
 	@echo "... PRM"
+	@echo "... debug"
 	@echo "... ex1"
 	@echo "... ex2"
 	@echo "... id_loop_functions"

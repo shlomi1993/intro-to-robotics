@@ -2,17 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="argos3_user" targetName="simple_demo" />
       <config projectName="argos3_user" targetName="id_loop_functions" />
-      <config projectName="argos3_user" targetName="PRM" />
       <config projectName="argos3_user" targetName="ex1" />
       <config projectName="argos3_user" targetName="trajectory_loop_functions" />
       <config projectName="argos3_user" targetName="ex2" />
-      <config projectName="argos3_user" targetName="run_away_by_bumpers" />
       <config projectName="argos3_user" targetName="pos_and_map_loop_functions" />
-      <config projectName="argos3_user" targetName="porting_example" />
-      <config projectName="argos3_user" targetName="program_template" />
       <config projectName="argos3_user" targetName="sand_timer_test" />
+      <config projectName="argos3_user" targetName="simple_demo" />
+      <config projectName="argos3_user" targetName="PRM" />
+      <config projectName="argos3_user" targetName="run_away_by_bumpers" />
+      <config projectName="argos3_user" targetName="porting_example" />
+      <config projectName="argos3_user" targetName="debug" />
+      <config projectName="argos3_user" targetName="program_template" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -22,8 +23,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a28ef151-5e21-45f2-b51f-d015f9a45c47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/debug/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a3d7d6d6c6b73578eb22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ab528e83c71fb6c715bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9d1859a2e2221d67c8d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-08T07-30-24-0871.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-PRM-Debug-9e57780c7cb99d4d25f6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/argos3_user.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/argos3_user.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/PRM_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/PRM/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/krembot.ino.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/krembot.ino.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/CMakeFiles/ex1_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex1/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/CMakeFiles/ex2_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/ex2/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/CMakeFiles/porting_example_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/porting_example/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/CMakeFiles/program_template_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/program_template/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/run_away_by_bumpers/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/sand_timer_test/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/controllers/simple_demo/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/id_loop_functions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/loop_functions/trajectory_loop_functions/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PRM/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PRM/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/PRM/krembot.ino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PRM/krembot.ino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PRM/krembot.ino.h" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PRM/krembot.ino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inflated_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/debug/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-unix.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run-unix.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucid=1oO2lb2LuLq4IrZmNMiJurWTotHp_pDye" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wget-log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +141,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -64,10 +178,21 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.ObjectiveC" />
   </component>
-  <component name="RunManager" selected="CMake Application.PRM">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controllers/debug" />
+      <recent name="$PROJECT_DIR$/controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.ex1">
     <configuration name="PRM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="argos3_user" TARGET_NAME="PRM" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debug" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="argos3_user" TARGET_NAME="debug" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -123,6 +248,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.debug" />
       <item itemvalue="CMake Application.ex1" />
       <item itemvalue="CMake Application.ex2" />
       <item itemvalue="CMake Application.porting_example" />
@@ -152,6 +278,13 @@
       <workItem from="1638945666667" duration="15589000" />
       <workItem from="1638978269108" duration="6269000" />
       <workItem from="1638994042305" duration="305000" />
+      <workItem from="1639327999980" duration="6102000" />
+      <workItem from="1639381027364" duration="646000" />
+      <workItem from="1639390444392" duration="7869000" />
+      <workItem from="1640235432033" duration="7000" />
+      <workItem from="1640236740148" duration="5534000" />
+      <workItem from="1640247830044" duration="16684000" />
+      <workItem from="1640270281232" duration="18355000" />
     </task>
     <servers />
   </component>

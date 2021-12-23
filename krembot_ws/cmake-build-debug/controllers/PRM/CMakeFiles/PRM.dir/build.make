@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/175/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/177/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/175/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/177/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,9 +79,22 @@ controllers/PRM/CMakeFiles/PRM.dir/PRM_autogen/mocs_compilation.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRM.dir/PRM_autogen/mocs_compilation.cpp.s"
 	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/PRM_autogen/mocs_compilation.cpp -o CMakeFiles/PRM.dir/PRM_autogen/mocs_compilation.cpp.s
 
+controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.o: controllers/PRM/CMakeFiles/PRM.dir/flags.make
+controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.o: ../controllers/PRM/kdtree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.o"
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRM.dir/kdtree.cpp.o -c /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/kdtree.cpp
+
+controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRM.dir/kdtree.cpp.i"
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/kdtree.cpp > CMakeFiles/PRM.dir/kdtree.cpp.i
+
+controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRM.dir/kdtree.cpp.s"
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/kdtree.cpp -o CMakeFiles/PRM.dir/kdtree.cpp.s
+
 controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.o: controllers/PRM/CMakeFiles/PRM.dir/flags.make
 controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.o: ../controllers/PRM/krembot.ino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.o"
 	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRM.dir/krembot.ino.cpp.o -c /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/krembot.ino.cpp
 
 controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.i: cmake_force
@@ -92,19 +105,36 @@ controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRM.dir/krembot.ino.cpp.s"
 	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/krembot.ino.cpp -o CMakeFiles/PRM.dir/krembot.ino.cpp.s
 
+controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.o: controllers/PRM/CMakeFiles/PRM.dir/flags.make
+controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.o: ../controllers/PRM/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.o"
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRM.dir/logger.cpp.o -c /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/logger.cpp
+
+controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRM.dir/logger.cpp.i"
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/logger.cpp > CMakeFiles/PRM.dir/logger.cpp.i
+
+controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRM.dir/logger.cpp.s"
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/logger.cpp -o CMakeFiles/PRM.dir/logger.cpp.s
+
 # Object files for target PRM
 PRM_OBJECTS = \
 "CMakeFiles/PRM.dir/PRM_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/PRM.dir/krembot.ino.cpp.o"
+"CMakeFiles/PRM.dir/kdtree.cpp.o" \
+"CMakeFiles/PRM.dir/krembot.ino.cpp.o" \
+"CMakeFiles/PRM.dir/logger.cpp.o"
 
 # External object files for target PRM
 PRM_EXTERNAL_OBJECTS =
 
 controllers/PRM/libPRM.so: controllers/PRM/CMakeFiles/PRM.dir/PRM_autogen/mocs_compilation.cpp.o
+controllers/PRM/libPRM.so: controllers/PRM/CMakeFiles/PRM.dir/kdtree.cpp.o
 controllers/PRM/libPRM.so: controllers/PRM/CMakeFiles/PRM.dir/krembot.ino.cpp.o
+controllers/PRM/libPRM.so: controllers/PRM/CMakeFiles/PRM.dir/logger.cpp.o
 controllers/PRM/libPRM.so: controllers/PRM/CMakeFiles/PRM.dir/build.make
 controllers/PRM/libPRM.so: controllers/PRM/CMakeFiles/PRM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module libPRM.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared module libPRM.so"
 	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PRM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
