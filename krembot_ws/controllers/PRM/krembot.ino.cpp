@@ -3,7 +3,7 @@
 
 #include "krembot.ino.h"
 
-#define N_VERTICES 12000    // Number of vertices that will give a solution with high probability in reasonable time.
+#define SAMPLES 12000    // Number of vertices that will give a solution with high probability in reasonable time.
 #define REDUCTION_FACTOR 2  // Make calculations easier.
 #define LOGGER              // Debug logs written to text files.
 #define K 30                // Reasonable K for KNN algorithm.
@@ -45,7 +45,7 @@ void PRM_controller::setup() {
     this->new_grid = lower_grid_resolution(inflated_obstacles_grid,REDUCTION_FACTOR,height,width);
 
     // Sample random points from the arena and convert them to KD-Nodes.
-    vector<double *> vec = sample_n_free_points(N_VERTICES, height / REDUCTION_FACTOR, width / REDUCTION_FACTOR,
+    vector<double *> vec = sample_n_free_points(SAMPLES, height / REDUCTION_FACTOR, width / REDUCTION_FACTOR,
                                                 new_grid, uniform_sample);
     KdNodeVector nodes = insert_points_to_nodes(vec);
 
@@ -56,12 +56,12 @@ void PRM_controller::setup() {
 
 #ifdef LOGGER
     logger::reset_logger("logger.txt");
-    logger::grid_to_file("grid", occupancyGrid, height, width);
-    logger::grid_to_file("inflated", inflated_obstacles_grid, height, width);
-    logger::grid_to_file("new_grid", new_grid, height / REDUCTION_FACTOR, width / REDUCTION_FACTOR);
+    logger::grid_to_file("grid.txt", occupancyGrid, height, width);
+    logger::grid_to_file("inflated.txt", inflated_obstacles_grid, height, width);
+    logger::grid_to_file("new_grid.txt", new_grid, height / REDUCTION_FACTOR, width / REDUCTION_FACTOR);
     logger::log_to_file("logger.txt", "created new grid:");
     logger::nodes_to_file(kd_tree.allnodes, new_grid, width / REDUCTION_FACTOR);
-    logger::adj_mat_to_file(adj_matrix, N_VERTICES);
+    logger::adj_mat_to_file(adj_matrix, SAMPLES);
     logger::path_to_file(path, new_grid, width / REDUCTION_FACTOR);
     logger::path_as_list_to_file(path);
 #endif
@@ -348,12 +348,12 @@ vector<vector<double>> PRM_controller::find_shortest_path(const vector<double>& 
 
 // dijkstra(): Implementation of Dijkstra algorithm to find the shortest path between two points.
 stack<int> PRM_controller::dijkstra(const KdNode& src, const KdNode&  dst, double **adj_matrix) {
-    int previous_node[N_VERTICES];
-    double distances[N_VERTICES];
-    int unvisited[N_VERTICES];
-    fill_n(previous_node, N_VERTICES, 99999);
-    fill_n(distances, N_VERTICES, 999999);
-    fill_n(unvisited, N_VERTICES, 1);
+    int previous_node[SAMPLES];
+    double distances[SAMPLES];
+    int unvisited[SAMPLES];
+    fill_n(previous_node, SAMPLES, 99999);
+    fill_n(distances, SAMPLES, 999999);
+    fill_n(unvisited, SAMPLES, 1);
     distances[src._id] = 0;
     stack<int> path;
     while (unvisited[dst._id] == 1) {
@@ -386,7 +386,7 @@ int PRM_controller::find_index_of_unvisited_min_index(const double *array, const
     double min = 999999;
     int best_index = -1;
     int i = 0;
-    for (; i < N_VERTICES; i++) {
+    for (; i < SAMPLES; i++) {
         if (array[i] < min && unvisited[i] == 1) {
             min = array[i];
             best_index = i;
@@ -398,7 +398,7 @@ int PRM_controller::find_index_of_unvisited_min_index(const double *array, const
 // get_neighbours(): returns a vector of indexes of the neighbors of a given node ug adj_matrix.
 vector<int> PRM_controller::get_neighbours(int node_index, double **adj_matrix) {
     vector<int> neighbours;
-    for (int i = 0; i < N_VERTICES; i++) {
+    for (int i = 0; i < SAMPLES; i++) {
         if ((adj_matrix[node_index][i] > 0) && adj_matrix[node_index][i] < 10) {
             neighbours.push_back(i);
 
