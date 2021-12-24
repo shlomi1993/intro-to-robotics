@@ -16,9 +16,6 @@ CMake Warning at CMakeLists.txt:38 (find_package):
   installed.
 
 
-CMake Error at controllers/CMakeLists.txt:17 (add_subdirectory):
-  add_subdirectory given source "debug" which is not an existing directory.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug

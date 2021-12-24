@@ -37,8 +37,9 @@ private:
     CVector2 starting_position;
     CVector2 next_stop;
     int** new_grid{};
-    int path_count =0;
-    CDegrees right_angle;
+    int path_count = 0;
+    CDegrees right_angle = CDegrees(0);
+    CDegrees prev_angle;
     std::vector<std::vector<double>> path;
     bool reached_goal = false;
 public:
@@ -65,7 +66,7 @@ public:
         }
         loop();
     }
-    static void pos_to_cord(CVector2 pos, int *j, int *i);
+    static void pos_to_cord(CVector2 pos, double *j, double *i);
     static CVector2 cell_to_cord(int cell_i,int cell_j,int reduction_factor);
     static std::vector<int> coord_to_cell(std::vector<double> coord,double resolution);
     static CDegrees get_position_to_destination(CVector2 pos, CVector2 dst);
@@ -77,11 +78,10 @@ public:
     static std::vector<double *> sample_n_free_points(int n_points, int max_height, int max_width, int **grid,
                                                           void (*sampler)(int &, int &, int, int));
     static Kdtree::KdNodeVector insert_points_to_nodes(std::vector<double *> points);
-    static double **calculate_adj_matrix(Kdtree::KdTree &kd_tree, int **&grid,
+    static double **create_adj_matrix(Kdtree::KdTree &kd_tree, int **&grid,
                                          double (*distance_metric)(std::vector<double>, std::vector<double>, int **,bool));
     static bool obstacle_in_the_middle(std::vector<double> src, std::vector<double> dst, int **grid);
-    __attribute__((unused)) static double l1_distance(std::vector<double> src, std::vector<double> dst, int **grid,
-                                                      bool driving=false);
+    static double l1_distance(std::vector<double> src, std::vector<double> dst, int **grid, bool driving=false);
     static double l2_distance(std::vector<double> src, std::vector<double> dst, int **grid, bool driving=false);
     static std::vector<std::vector<double>> find_shortest_path(const std::vector<double>& src,
                                                                const std::vector<double>& dst,
@@ -90,7 +90,7 @@ public:
     static std::stack<int> dijkstra(const Kdtree::KdNode& src, const Kdtree::KdNode&  dst, double **adj_matrix);
     static int find_index_of_unvisited_min_index(const double *array, const int *unvisited);
     static std::vector<int> get_neighbours(int node_index, double **adj_matrix);
-    static std::vector<std::vector<double>> convert_path_from_id_to_coords(std::stack<int> nodes_id_path,
+    static std::vector<std::vector<double>> path_ids_to_coords(std::stack<int> nodes_id_path,
                                                                            Kdtree::KdTree &kd_tree);
 
 

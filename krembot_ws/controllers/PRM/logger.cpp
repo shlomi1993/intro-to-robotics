@@ -20,9 +20,9 @@ string logger::point_to_string(vector<double> point) {
 }
 
 // grid_to_file(): save grid in a text file.
-void logger::grid_to_file(const string& name, int **grid, int _height, int _width) {
+void logger::grid_to_file(const string& file_path, int **grid, int _height, int _width) {
     ofstream m_cOutput;
-    m_cOutput.open(name, ios_base::trunc | ios_base::out);
+    m_cOutput.open(file_path, ios_base::trunc | ios_base::out);
     for (int row = _height - 1; row >= 0; row--) {
         for (int col = 0; col < _width; col++) {
             m_cOutput << grid[row][col] << ' ';
@@ -33,17 +33,17 @@ void logger::grid_to_file(const string& name, int **grid, int _height, int _widt
 }
 
 // reset_logger(): clear given logger file.
-void logger::reset_logger(const string& name) {
+void logger::reset_logger(const string& file_path) {
     ofstream m_cOutput;
-    m_cOutput.open(name, ios_base::trunc | ios_base::out);
+    m_cOutput.open(file_path, ios_base::trunc | ios_base::out);
     m_cOutput << endl;
     m_cOutput.close();
 }
 
 // log_to_file(): add log to a logger file.
-void logger::log_to_file(const string& name, const string& msg) {
+void logger::log_to_file(const string& file_path, const string& msg) {
     ofstream m_cOutput;
-    m_cOutput.open(name, ios_base::app | ios_base::out);
+    m_cOutput.open(file_path, ios_base::app | ios_base::out);
     m_cOutput << msg << endl;
     m_cOutput.close();
 }
@@ -51,7 +51,7 @@ void logger::log_to_file(const string& name, const string& msg) {
 // adj_mat_to_file(): save adjacent-matrix to a file.
 void logger::adj_mat_to_file(double **mat, int dim) {
     ofstream m_cOutput;
-    m_cOutput.open("adj_mat.txt", ios_base::trunc | ios_base::out);
+    m_cOutput.open("logs/adj_mat.txt", ios_base::trunc | ios_base::out);
     for (int i = 0; i < dim; i++) {
         for (int j = 0; j < dim; j++) {
             m_cOutput << mat[i][j] << ' ';
@@ -63,9 +63,9 @@ void logger::adj_mat_to_file(double **mat, int dim) {
 
 // print_nodes(): Get KD-Tree nodes and save them in a text file.
 void logger::print_nodes(const Kdtree::KdNodeVector &nodes) {
-    log_to_file("logger.txt", "started_printing nodes:\n");
+    log_to_file("logs/logger.txt", "started_printing nodes:\n");
     for (const auto & node : nodes) {
-        log_to_file("logger.txt", node_to_string(node));
+        log_to_file("logs/logger.txt", node_to_string(node));
     }
 }
 
@@ -83,7 +83,7 @@ void logger::path_to_file(vector<vector<double>> path, int **grid, int size) {
     for (auto it = path.begin(); it != path.end(); it++) {
         new_grid[(int) it[0][0]][(int) it[0][1]] = step++;
     }
-    grid_to_file("path.txt", new_grid, size, size);
+    grid_to_file("logs/path.txt", new_grid, size, size);
 }
 
 // path_as_list_to_file(): log given path as list to a text file.
@@ -93,7 +93,7 @@ void logger::path_as_list_to_file(const vector<vector<double>>& path) {
         str += point_to_string(it);
     }
     ofstream m_cOutput;
-    m_cOutput.open("path_as_list.txt", ios_base::trunc | ios_base::out);
+    m_cOutput.open("logs/path_as_list.txt", ios_base::trunc | ios_base::out);
     m_cOutput << str << endl;
 }
 
@@ -110,5 +110,5 @@ void logger::nodes_to_file(KdNodeVector nodes, int **grid, int size) {
     for (auto it = nodes.begin(); it != nodes.end(); it++) {
         new_grid[(int) it[0].point[0]][(int) it[0].point[1]] = it[0]._id;
     }
-    grid_to_file("nodes_in_grid.txt", new_grid, size, size);
+    grid_to_file("logs/nodes_in_grid.txt", new_grid, size, size);
 }

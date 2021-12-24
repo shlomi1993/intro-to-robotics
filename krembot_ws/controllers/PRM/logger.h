@@ -16,9 +16,9 @@ private:
     static std::string node_to_string(Kdtree::KdNode node);
     static std::string point_to_string(std::vector<double> point);
 public:
-    static void reset_logger(const std::string &name);
-    static void grid_to_file(const std::string &name, int **grid, int _height, int _width);
-    static void log_to_file(const std::string &name, const std::string &msg);
+    static void reset_logger(const std::string &file_path);
+    static void grid_to_file(const std::string &file_path, int **grid, int _height, int _width);
+    static void log_to_file(const std::string &file_path, const std::string &msg);
     static void adj_mat_to_file(double **mat, int dim);
     static void print_nodes(const Kdtree::KdNodeVector &nodes);
     static void path_to_file(std::vector<std::vector<double>> path, int **grid, int size);

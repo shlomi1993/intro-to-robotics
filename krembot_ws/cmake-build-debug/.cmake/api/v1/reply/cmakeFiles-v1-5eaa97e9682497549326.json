@@ -392,9 +392,6 @@
 			"path" : "controllers/PRM/CMakeLists.txt"
 		},
 		{
-			"path" : "controllers/debug/CMakeLists.txt"
-		},
-		{
 			"path" : "loop_functions/CMakeLists.txt"
 		},
 		{
