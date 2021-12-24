@@ -3,9 +3,9 @@
 
 #include "krembot.ino.h"
 
-#define SAMPLES 12000    // Number of vertices that will give a solution with high probability in reasonable time.
-#define REDUCTION_FACTOR 2  // Make calculations easier.
-#define LOGGER              // Debug logs written to text files.
+#define SAMPLES 6000       // Number of vertices that will give a solution with high probability in reasonable time.
+#define REDUCTION_FACTOR 2  // Fit to resolution, required Grid_Height % REDUCTION_FACTOR == 0.
+//#define LOGGER              // Debug logs written to text files.
 #define K 30                // Reasonable K for KNN algorithm.
 
 using namespace std;
@@ -17,6 +17,7 @@ Real resolution;
 CVector2 origin;
 CVector2 pos;
 CDegrees degreeX;
+auto metric = PRM_controller::l2_distance;
 
 // Krembot's setup function - initialize the robot and prepare for the mission.
 void PRM_controller::setup() {
@@ -51,20 +52,20 @@ void PRM_controller::setup() {
 
     // Create a KD-Tree out of the nodes, find the adjacent-matrix find the shortest path from starting point to goal.
     Kdtree::KdTree kd_tree(&nodes);
-    double **adj_matrix = calculate_adj_matrix(kd_tree, new_grid, l2_distance);
+    double **adj_matrix = create_adj_matrix(kd_tree, new_grid, metric);
     this->path = find_shortest_path(starting_cell_double, goal_cell_double, adj_matrix, kd_tree);
 
-#ifdef LOGGER
-    logger::reset_logger("logger.txt");
-    logger::grid_to_file("grid.txt", occupancyGrid, height, width);
-    logger::grid_to_file("inflated.txt", inflated_obstacles_grid, height, width);
-    logger::grid_to_file("new_grid.txt", new_grid, height / REDUCTION_FACTOR, width / REDUCTION_FACTOR);
-    logger::log_to_file("logger.txt", "created new grid:");
-    logger::nodes_to_file(kd_tree.allnodes, new_grid, width / REDUCTION_FACTOR);
-    logger::adj_mat_to_file(adj_matrix, SAMPLES);
-    logger::path_to_file(path, new_grid, width / REDUCTION_FACTOR);
-    logger::path_as_list_to_file(path);
-#endif
+//#ifdef LOGGER
+//    logger::reset_logger("logs/logger.txt");
+//    logger::grid_to_file("logs/grid.txt", occupancyGrid, height, width);
+//    logger::grid_to_file("logs/inflated.txt", inflated_obstacles_grid, height, width);
+//    logger::grid_to_file("logs/new_grid.txt", new_grid, height / REDUCTION_FACTOR, width / REDUCTION_FACTOR);
+//    logger::log_to_file("logs/logger.txt", "created new grid:");
+//    logger::nodes_to_file(kd_tree.allnodes, new_grid, width / REDUCTION_FACTOR);
+//    logger::adj_mat_to_file(adj_matrix, SAMPLES);
+//    logger::path_to_file(path, new_grid, width / REDUCTION_FACTOR);
+//    logger::path_as_list_to_file(path);
+//#endif
 
 }
 
@@ -92,19 +93,22 @@ void PRM_controller::loop() {
     if ((this->close_enough(pos, this->next_stop)) && !reached_goal) {
         krembot.Base.stop();
         this->next_stop = this->get_next_pos();
+        this->prev_angle = this->right_angle;
         this->right_angle = get_position_to_destination(pos, this->next_stop);
         this->setup_angle = true;
     }
 
     // Turning in progress...
     if (this->setup_angle) {
-        krembot.Base.drive(0, ANGULAR_SPEED);
+        double angle_diff = this->right_angle.GetValue() - this->prev_angle.GetValue();
+        int8_t speed = (angle_diff > 0) ? ANGULAR_SPEED : (-1) * ANGULAR_SPEED;
+        krembot.Base.drive(0, speed);
     }
 
     // Driving condition.
     if (((NormalizedDifference(degreeX.UnsignedNormalize(),
                                this->right_angle.UnsignedNormalize()).UnsignedNormalize())
-         < CDegrees(MAXIMAL_DEGREE_DIFF)) && !reached_goal) {
+                               < CDegrees(MAXIMAL_DEGREE_DIFF)) && !reached_goal) {
         krembot.Base.drive(100, 0);
         this->setup_angle = false;
     }
@@ -138,19 +142,14 @@ CVector2 PRM_controller::get_next_pos() {
 bool PRM_controller::close_enough(CVector2 current_pos, CVector2 next_pos) {
 
     // Create vectors of source and destinations.
-    vector<double> src, dst;
-    int src_i, src_j, dst_i, dst_j;
+    double src_i, src_j, dst_i, dst_j;
     pos_to_cord(current_pos, &src_i, &src_j);
     pos_to_cord(next_pos, &dst_i, &dst_j);
-    src.push_back(src_i);
-    src.push_back(src_j);
-    dst.push_back(dst_i);
-    dst.push_back(dst_j);
+    vector<double> src{ src_i, src_j };
+    vector<double> dst{ dst_i, dst_j };
 
-    // Use l2_distance function as it more precise than l1_distance because the robot can drive in diagonals.
-    double distance = l2_distance(src, dst, this->new_grid,true);
-
-    // Return true if in "touching-distance:, and false otherwise.
+    // Calculate distance and return true if in "touching-distance", and false otherwise.
+    double distance = metric(src, dst, this->new_grid,true);
     return ((0 <= distance) && (distance <= 2));
 
 }
@@ -271,8 +270,8 @@ KdNodeVector PRM_controller::insert_points_to_nodes(vector<double *> points) {
     return nodes;
 }
 
-// calculate_adj_matrix(): create adjacent-matrix by using the grid, the KNN and a distance-metric-function.
-double **PRM_controller::calculate_adj_matrix(KdTree &kd_tree, int **&grid,
+// create_adj_matrix(): create adjacent-matrix by using the grid, the KNN and a distance-metric-function.
+double **PRM_controller::create_adj_matrix(KdTree &kd_tree, int **&grid,
                                               double (*distance_metric)(vector<double>, vector<double>, int **,bool)) {
     KdNodeVector points_list = kd_tree.allnodes;
     auto **adj_matrix = new double *[points_list.size()];
@@ -320,10 +319,10 @@ bool PRM_controller::obstacle_in_the_middle(vector<double> src, vector<double> d
 }
 
 // l1_distance(): L1 distance metric -- unused function due to the selection of L2.
-__attribute__((unused)) double PRM_controller::l1_distance(vector<double> src, vector<double> dst, int **grid, bool driving) {
+double PRM_controller::l1_distance(vector<double> src, vector<double> dst, int **grid, bool driving) {
     if ((src[0] == dst[0]) && (src[1] == dst[1])) return 0;
     if (obstacle_in_the_middle(src, dst, grid) && !driving) return -1;
-    return abs(src[0] - dst[0])+ abs(src[1] - dst[1]);
+    return abs(src[0] - dst[0]) + abs(src[1] - dst[1]);
 }
 
 // l2_distance(): L2 distance metric -- the better metric due to the fact that the robot can move in diagonals.
@@ -333,7 +332,7 @@ double PRM_controller::l2_distance(vector<double> src, vector<double> dst, int *
     return sqrt(pow((src[0] - dst[0]), 2) + pow(src[1] - dst[1], 2));
 }
 
-// find_shortest_path(): using Dijkstra algorithtm to find the shortest path from the first node to the last.
+// find_shortest_path(): using Dijkstra algorithm to find the shortest path from the first node to the last.
 vector<vector<double>> PRM_controller::find_shortest_path(const vector<double>& src, const vector<double>& dst,
                                           double **adj_matrix, KdTree &kd_tree) {
     KdNodeVector first_node;
@@ -342,7 +341,7 @@ vector<vector<double>> PRM_controller::find_shortest_path(const vector<double>& 
     kd_tree.k_nearest_neighbors(dst, 1, &last_node);
     stack<int> nodes_id_path;
     nodes_id_path = dijkstra(first_node.at(0), last_node.at(0), adj_matrix);
-    vector<vector<double>> path = convert_path_from_id_to_coords(nodes_id_path, kd_tree);
+    vector<vector<double>> path = path_ids_to_coords(nodes_id_path, kd_tree);
     return path;
 }
 
@@ -407,8 +406,8 @@ vector<int> PRM_controller::get_neighbours(int node_index, double **adj_matrix) 
     return neighbours;
 }
 
-// convert_path_from_id_to_coords(): convert each Node-ID on the path to coordinates, and return them in a vector.
-vector<vector<double>> PRM_controller::convert_path_from_id_to_coords(stack<int> nodes_id_path, KdTree &kd_tree) {
+// path_ids_to_coords(): convert each Node-ID on the path to coordinates, and return them in a vector.
+vector<vector<double>> PRM_controller::path_ids_to_coords(stack<int> nodes_id_path, KdTree &kd_tree) {
     vector<vector<double>> coords_path;
     KdNodeVector nodes = kd_tree.allnodes;
     while (!nodes_id_path.empty()) {
@@ -426,9 +425,9 @@ vector<vector<double>> PRM_controller::convert_path_from_id_to_coords(stack<int>
 }
 
 // pos_to_cord(): converts CVector2 to i and j integers.
-void PRM_controller::pos_to_cord(CVector2 position, int *i, int *j) {
-    *i = (int) ((position.GetX() - origin.GetX()) / (resolution * REDUCTION_FACTOR));
-    *j = (int) ((position.GetY() - origin.GetY()) / (resolution * REDUCTION_FACTOR));
+void PRM_controller::pos_to_cord(CVector2 position, double *i, double *j) {
+    *i = (position.GetX() - origin.GetX()) / (resolution * REDUCTION_FACTOR);
+    *j = (position.GetY() - origin.GetY()) / (resolution * REDUCTION_FACTOR);
 }
 
 // coord_to_cell(): get the cell that contains the given coordinates.

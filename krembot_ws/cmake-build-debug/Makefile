@@ -325,32 +325,6 @@ PRM_autogen/fast:
 .PHONY : PRM_autogen/fast
 
 #=============================================================================
-# Target rules for targets named debug
-
-# Build rule for target.
-debug: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 debug
-.PHONY : debug
-
-# fast build rule for target.
-debug/fast:
-	$(MAKE) $(MAKESILENT) -f controllers/debug/CMakeFiles/debug.dir/build.make controllers/debug/CMakeFiles/debug.dir/build
-.PHONY : debug/fast
-
-#=============================================================================
-# Target rules for targets named debug_autogen
-
-# Build rule for target.
-debug_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 debug_autogen
-.PHONY : debug_autogen
-
-# fast build rule for target.
-debug_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f controllers/debug/CMakeFiles/debug_autogen.dir/build.make controllers/debug/CMakeFiles/debug_autogen.dir/build
-.PHONY : debug_autogen/fast
-
-#=============================================================================
 # Target rules for targets named id_loop_functions
 
 # Build rule for target.
@@ -437,7 +411,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PRM_autogen"
-	@echo "... debug_autogen"
 	@echo "... ex1_autogen"
 	@echo "... ex2_autogen"
 	@echo "... id_loop_functions_autogen"
@@ -449,7 +422,6 @@ help:
 	@echo "... simple_demo_autogen"
 	@echo "... trajectory_loop_functions_autogen"
 	@echo "... PRM"
-	@echo "... debug"
 	@echo "... ex1"
 	@echo "... ex2"
 	@echo "... id_loop_functions"
