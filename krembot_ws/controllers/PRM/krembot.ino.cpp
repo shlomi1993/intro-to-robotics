@@ -3,7 +3,7 @@
 
 #include "krembot.ino.h"
 
-#define SAMPLES 6000       // Number of vertices that will give a solution with high probability in reasonable time.
+#define SAMPLES 12000       // Number of vertices that will give a solution with high probability in reasonable time.
 #define REDUCTION_FACTOR 2  // Fit to resolution, required Grid_Height % REDUCTION_FACTOR == 0.
 //#define LOGGER              // Debug logs written to text files.
 #define K 30                // Reasonable K for KNN algorithm.
