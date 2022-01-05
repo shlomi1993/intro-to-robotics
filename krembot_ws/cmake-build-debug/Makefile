@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/177/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/178/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/177/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/178/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cm
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/177/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/178/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/177/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/178/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -325,6 +325,110 @@ PRM_autogen/fast:
 .PHONY : PRM_autogen/fast
 
 #=============================================================================
+# Target rules for targets named footbot_foraging
+
+# Build rule for target.
+footbot_foraging: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 footbot_foraging
+.PHONY : footbot_foraging
+
+# fast build rule for target.
+footbot_foraging/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/build.make controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/build
+.PHONY : footbot_foraging/fast
+
+#=============================================================================
+# Target rules for targets named footbot_foraging_autogen
+
+# Build rule for target.
+footbot_foraging_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 footbot_foraging_autogen
+.PHONY : footbot_foraging_autogen
+
+# fast build rule for target.
+footbot_foraging_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/footbot_foraging/CMakeFiles/footbot_foraging_autogen.dir/build.make controllers/footbot_foraging/CMakeFiles/footbot_foraging_autogen.dir/build
+.PHONY : footbot_foraging_autogen/fast
+
+#=============================================================================
+# Target rules for targets named foraging
+
+# Build rule for target.
+foraging: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging
+.PHONY : foraging
+
+# fast build rule for target.
+foraging/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging/CMakeFiles/foraging.dir/build.make controllers/foraging/CMakeFiles/foraging.dir/build
+.PHONY : foraging/fast
+
+#=============================================================================
+# Target rules for targets named foraging_autogen
+
+# Build rule for target.
+foraging_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_autogen
+.PHONY : foraging_autogen
+
+# fast build rule for target.
+foraging_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging/CMakeFiles/foraging_autogen.dir/build.make controllers/foraging/CMakeFiles/foraging_autogen.dir/build
+.PHONY : foraging_autogen/fast
+
+#=============================================================================
+# Target rules for targets named foraging_0
+
+# Build rule for target.
+foraging_0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_0
+.PHONY : foraging_0
+
+# fast build rule for target.
+foraging_0/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_0/CMakeFiles/foraging_0.dir/build.make controllers/foraging_0/CMakeFiles/foraging_0.dir/build
+.PHONY : foraging_0/fast
+
+#=============================================================================
+# Target rules for targets named foraging_0_autogen
+
+# Build rule for target.
+foraging_0_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_0_autogen
+.PHONY : foraging_0_autogen
+
+# fast build rule for target.
+foraging_0_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_0/CMakeFiles/foraging_0_autogen.dir/build.make controllers/foraging_0/CMakeFiles/foraging_0_autogen.dir/build
+.PHONY : foraging_0_autogen/fast
+
+#=============================================================================
+# Target rules for targets named foraging_1
+
+# Build rule for target.
+foraging_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_1
+.PHONY : foraging_1
+
+# fast build rule for target.
+foraging_1/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_1/CMakeFiles/foraging_1.dir/build.make controllers/foraging_1/CMakeFiles/foraging_1.dir/build
+.PHONY : foraging_1/fast
+
+#=============================================================================
+# Target rules for targets named foraging_1_autogen
+
+# Build rule for target.
+foraging_1_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_1_autogen
+.PHONY : foraging_1_autogen
+
+# fast build rule for target.
+foraging_1_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_1/CMakeFiles/foraging_1_autogen.dir/build.make controllers/foraging_1/CMakeFiles/foraging_1_autogen.dir/build
+.PHONY : foraging_1_autogen/fast
+
+#=============================================================================
 # Target rules for targets named id_loop_functions
 
 # Build rule for target.
@@ -402,6 +506,32 @@ pos_and_map_loop_functions_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build.make loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build
 .PHONY : pos_and_map_loop_functions_autogen/fast
 
+#=============================================================================
+# Target rules for targets named tournament_loop_functions
+
+# Build rule for target.
+tournament_loop_functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tournament_loop_functions
+.PHONY : tournament_loop_functions
+
+# fast build rule for target.
+tournament_loop_functions/fast:
+	$(MAKE) $(MAKESILENT) -f loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/build.make loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/build
+.PHONY : tournament_loop_functions/fast
+
+#=============================================================================
+# Target rules for targets named tournament_loop_functions_autogen
+
+# Build rule for target.
+tournament_loop_functions_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tournament_loop_functions_autogen
+.PHONY : tournament_loop_functions_autogen
+
+# fast build rule for target.
+tournament_loop_functions_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/build.make loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/build
+.PHONY : tournament_loop_functions_autogen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -413,6 +543,10 @@ help:
 	@echo "... PRM_autogen"
 	@echo "... ex1_autogen"
 	@echo "... ex2_autogen"
+	@echo "... footbot_foraging_autogen"
+	@echo "... foraging_0_autogen"
+	@echo "... foraging_1_autogen"
+	@echo "... foraging_autogen"
 	@echo "... id_loop_functions_autogen"
 	@echo "... porting_example_autogen"
 	@echo "... pos_and_map_loop_functions_autogen"
@@ -420,10 +554,15 @@ help:
 	@echo "... run_away_by_bumpers_autogen"
 	@echo "... sand_timer_test_autogen"
 	@echo "... simple_demo_autogen"
+	@echo "... tournament_loop_functions_autogen"
 	@echo "... trajectory_loop_functions_autogen"
 	@echo "... PRM"
 	@echo "... ex1"
 	@echo "... ex2"
+	@echo "... footbot_foraging"
+	@echo "... foraging"
+	@echo "... foraging_0"
+	@echo "... foraging_1"
 	@echo "... id_loop_functions"
 	@echo "... porting_example"
 	@echo "... pos_and_map_loop_functions"
@@ -431,6 +570,7 @@ help:
 	@echo "... run_away_by_bumpers"
 	@echo "... sand_timer_test"
 	@echo "... simple_demo"
+	@echo "... tournament_loop_functions"
 	@echo "... trajectory_loop_functions"
 .PHONY : help
 

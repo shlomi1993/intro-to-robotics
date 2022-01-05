@@ -3,7 +3,7 @@
 	"CMAKE_BINARY_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers",
-	"CMAKE_EXECUTABLE" : "/snap/clion/177/bin/cmake/linux/bin/cmake",
+	"CMAKE_EXECUTABLE" : "/snap/clion/178/bin/cmake/linux/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/run_away_by_bumpers/CMakeLists.txt"
@@ -60,7 +60,7 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/177/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+		"/snap/clion/178/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/run_away_by_bumpers/run_away_by_bumpers_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,

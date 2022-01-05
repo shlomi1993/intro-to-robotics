@@ -47,6 +47,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/cmake_install.cmake")
   include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/cmake_install.cmake")
   include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/cmake_install.cmake")
 
 endif()
 

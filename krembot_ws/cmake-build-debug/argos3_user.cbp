@@ -5,7 +5,7 @@
 		<Option title="argos3_user"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\argos3\;CMake Files\..\..\..\..\..\..\usr\local\share\argos3\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\controllers\;CMake Files\controllers\program_template\;CMake Files\controllers\run_away_by_bumpers\;CMake Files\controllers\simple_demo\;CMake Files\controllers\porting_example\;CMake Files\controllers\sand_timer_test\;CMake Files\controllers\ex1\;CMake Files\controllers\ex2\;CMake Files\controllers\PRM\;CMake Files\loop_functions\;CMake Files\loop_functions\id_loop_functions\;CMake Files\loop_functions\trajectory_loop_functions\;CMake Files\loop_functions\pos_and_map_loop_functions\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\argos3\;CMake Files\..\..\..\..\..\..\usr\local\share\argos3\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\controllers\;CMake Files\controllers\program_template\;CMake Files\controllers\run_away_by_bumpers\;CMake Files\controllers\simple_demo\;CMake Files\controllers\porting_example\;CMake Files\controllers\sand_timer_test\;CMake Files\controllers\ex1\;CMake Files\controllers\ex2\;CMake Files\controllers\PRM\;CMake Files\controllers\footbot_foraging\;CMake Files\controllers\foraging\;CMake Files\controllers\foraging_0\;CMake Files\controllers\foraging_1\;CMake Files\loop_functions\;CMake Files\loop_functions\id_loop_functions\;CMake Files\loop_functions\trajectory_loop_functions\;CMake Files\loop_functions\pos_and_map_loop_functions\;CMake Files\loop_functions\tournament_loop_functions\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug"/>
@@ -737,6 +737,352 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="footbot_foraging">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/libfootbot_foraging.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/footbot_foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/footbot_foraging_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 footbot_foraging"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="footbot_foraging/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/libfootbot_foraging.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/footbot_foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/footbot_foraging_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 footbot_foraging/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="footbot_foraging_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 footbot_foraging_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/libforaging.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=foraging_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;foraging_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/foraging_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 foraging"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/libforaging.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=foraging_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;foraging_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/foraging_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 foraging/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 foraging_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_0">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/libforaging_0.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=foraging_0_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;foraging_0_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_0"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/foraging_0_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 foraging_0"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_0/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/libforaging_0.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=foraging_0_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;foraging_0_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_0"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/foraging_0_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 foraging_0/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_0_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 foraging_0_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_1">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/libforaging_1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=foraging_1_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;foraging_1_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/foraging_1_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 foraging_1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_1/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/libforaging_1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DCONTROLLER_NAME=foraging_1_controller"/>
+					<Add option="-DCONTROLLER_LABEL=&quot;foraging_1_controller&quot;"/>
+					<Add option="-DKREMBOT_SIM"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_1"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/foraging_1_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 foraging_1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foraging_1_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 foraging_1_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="id_loop_functions">
 				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions/libid_loop_functions.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/id_loop_functions"/>
@@ -977,6 +1323,86 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tournament_loop_functions">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/libtournament_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/tournament_loop_functions_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 tournament_loop_functions"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tournament_loop_functions/fast">
+				<Option output="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/libtournament_loop_functions.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/tournament_loop_functions_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws"/>
+					<Add directory="/usr/include/lua5.2"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 tournament_loop_functions/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tournament_loop_functions_autogen">
+				<Option working_dir="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 tournament_loop_functions_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/PRM/PRM_autogen/mocs_compilation.cpp">
 			<Option target="PRM"/>
@@ -986,6 +1412,18 @@
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/ex2/ex2_autogen/mocs_compilation.cpp">
 			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/footbot_foraging/footbot_foraging_autogen/mocs_compilation.cpp">
+			<Option target="footbot_foraging"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/foraging_autogen/mocs_compilation.cpp">
+			<Option target="foraging"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/foraging_0_autogen/mocs_compilation.cpp">
+			<Option target="foraging_0"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/foraging_1_autogen/mocs_compilation.cpp">
+			<Option target="foraging_1"/>
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/porting_example/porting_example_autogen/mocs_compilation.cpp">
 			<Option target="porting_example"/>
@@ -1007,6 +1445,9 @@
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/pos_and_map_loop_functions/pos_and_map_loop_functions_autogen/mocs_compilation.cpp">
 			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/tournament_loop_functions/tournament_loop_functions_autogen/mocs_compilation.cpp">
+			<Option target="tournament_loop_functions"/>
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/loop_functions/trajectory_loop_functions/trajectory_loop_functions_autogen/mocs_compilation.cpp">
 			<Option target="trajectory_loop_functions"/>
@@ -1031,6 +1472,21 @@
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/ex2/krembot.ino.cpp">
 			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/footbot_foraging/footbot_foraging.cpp">
+			<Option target="footbot_foraging"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/footbot_foraging/footbot_foraging.h">
+			<Option target="footbot_foraging"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging/krembot.ino.cpp">
+			<Option target="foraging"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_0/krembot.ino.cpp">
+			<Option target="foraging_0"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_1/krembot.ino.cpp">
+			<Option target="foraging_1"/>
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/porting_example/krembot.ino.cpp">
 			<Option target="porting_example"/>
@@ -1070,6 +1526,18 @@
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/pos_and_map_trajectory_qtuser_functions.h">
 			<Option target="pos_and_map_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions/tournament_loop_functions.cpp">
+			<Option target="tournament_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions/tournament_loop_functions.h">
+			<Option target="tournament_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions/tournament_qt_user_functions.cpp">
+			<Option target="tournament_loop_functions"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions/tournament_qt_user_functions.h">
+			<Option target="tournament_loop_functions"/>
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/trajectory_loop_functions/trajectory_loop_functions.cpp">
 			<Option target="trajectory_loop_functions"/>
@@ -1233,6 +1701,18 @@
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/PRM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\controllers\PRM\"/>
 		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/footbot_foraging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controllers\footbot_foraging\"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controllers\foraging\"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controllers\foraging_0\"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controllers\foraging_1\"/>
+		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\loop_functions\"/>
 		</Unit>
@@ -1244,6 +1724,9 @@
 		</Unit>
 		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/pos_and_map_loop_functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\loop_functions\pos_and_map_loop_functions\"/>
+		</Unit>
+		<Unit filename="/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/loop_functions/tournament_loop_functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\loop_functions\tournament_loop_functions\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
