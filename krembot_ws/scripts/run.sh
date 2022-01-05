@@ -18,6 +18,9 @@ then
 elif [ "$1" == "3" ]
 then
 	argos3 -c ./config/PRM.argos
+elif [ "$1" == "4" ]
+then
+	argos3 -c ./config/tournament.argos
 elif [ "$1" == "all" ]
 then
 	argos3 -c ./config/PRM.argos
@@ -30,7 +33,8 @@ then
 	argos3 -c ./config/simple_demo.argos
 	argos3 -c ./config/ex1.argos
 	argos3 -c ./config/ex2.argos
-	argos3 -c ./config/ex3.argos
+	argos3 -c ./config/PRM.argos
+	argos3 -c ./config/tournament.argos
 fi
 
 echo "Done." ; echo
