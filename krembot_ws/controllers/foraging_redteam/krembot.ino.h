@@ -3,21 +3,16 @@
 
 #define NOT_INITIALIZED -999
 
-class foraging_1_controller : public foraging_controller {
+class foraging_redteam_controller : public foraging_controller {
 private:
-    enum State { spiralMove, spiralTurn, move, softTurn, hardTurn, rtb, avoidObstacle };
-    State state = spiralMove;
+    enum State { move, turn, rtb_move, rtb_turn };
+    State state = move;
     SandTimer sandTimer;
     int turning_speed = 100;
+    int turning_time = 100;
     int direction = 1;
     Colors ourColor, opponentColor;
     Colors ourBaseColor, opponentBaseColor;
-    bool nestLocationIsEstimated = true;
-    bool firstFoodCollected = false;
-    bool directionSet = false;
-    SandTimer spiralStartTimer, spiralEndTimer;
-    int spiral_turning_time = 200;
-    int adder = 0;
 public:
     void setup() override;
     void loop() override;
@@ -28,4 +23,4 @@ public:
 };
 
 
-REGISTER_CONTROLLER(foraging_1_controller, "foraging_1_controller")
+REGISTER_CONTROLLER(foraging_redteam_controller, "foraging_redteam_controller")

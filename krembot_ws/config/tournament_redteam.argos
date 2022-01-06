@@ -54,7 +54,7 @@ in the future can add also TASK
       <params teamID="0"/>
     </foraging_1_controller>
 
-    <foraging_0_controller id="foraging_0_second" library="build/controllers/foraging_0/libforaging_0.so">
+    <foraging_redteam_controller id="foraging_redteam_second" library="build/controllers/foraging_redteam/libforaging_redteam.so">
           <actuators>
             <differential_steering implementation="default" />
       <leds                  implementation="default" medium="leds" />
@@ -86,7 +86,7 @@ in the future can add also TASK
     in the future can add also TASK
           -->
           <params teamID="1"/>
-        </foraging_0_controller>
+        </foraging_redteam_controller>
 
 
   </controllers>
@@ -173,7 +173,7 @@ in the future can add also TASK
           <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
           <entity quantity="5" max_trials="100">
             <foot-bot id="secondTeam">
-              <controller config="foraging_0_second" />
+              <controller config="foraging_redteam_second" />
             </foot-bot>
           </entity>
         </distribute>
@@ -198,15 +198,15 @@ in the future can add also TASK
   <!-- * Visualization * -->
   <!-- ****************** -->
   <visualization>
-                        <qt-opengl  autoplay="true">
-                          <user_functions library="build/loop_functions/tournament_loop_functions/libtournament_loop_functions.so" label="tournament_qt_user_functions" />
-              			  <camera>
-							<placements>
-			  					<placement index="0" position="-5,0,15" look_at="0,0,0" up="1,0,0" lens_focal_length="65" />
-							</placements>
-						</camera>
-                        </qt-opengl>
-                      </visualization>
+  	<qt-opengl  autoplay="true">
+  		<user_functions library="build/loop_functions/tournament_loop_functions/libtournament_loop_functions.so" label="tournament_qt_user_functions" />
+  		<camera>
+  			<placements>
+		  		<placement index="0" position="-5,0,15" look_at="0,0,0" up="1,0,0" lens_focal_length="65" />
+				</placements>
+			</camera>
+    </qt-opengl>
+  </visualization>
     <!-- *****<visualization>
                       <qt-opengl  autoplay="false">
                       <user_functions library="/home/dav/krembot_ws/build/loop_functions/id_loop_functions/libid_loop_functions.so"
