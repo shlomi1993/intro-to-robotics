@@ -93,6 +93,7 @@ controllers/all: controllers/footbot_foraging/all
 controllers/all: controllers/foraging/all
 controllers/all: controllers/foraging_0/all
 controllers/all: controllers/foraging_1/all
+controllers/all: controllers/foraging_redteam/all
 .PHONY : controllers/all
 
 # Recursive "preinstall" directory target.
@@ -108,6 +109,7 @@ controllers/preinstall: controllers/footbot_foraging/preinstall
 controllers/preinstall: controllers/foraging/preinstall
 controllers/preinstall: controllers/foraging_0/preinstall
 controllers/preinstall: controllers/foraging_1/preinstall
+controllers/preinstall: controllers/foraging_redteam/preinstall
 .PHONY : controllers/preinstall
 
 # Recursive "clean" directory target.
@@ -123,6 +125,7 @@ controllers/clean: controllers/footbot_foraging/clean
 controllers/clean: controllers/foraging/clean
 controllers/clean: controllers/foraging_0/clean
 controllers/clean: controllers/foraging_1/clean
+controllers/clean: controllers/foraging_redteam/clean
 .PHONY : controllers/clean
 
 #=============================================================================
@@ -236,6 +239,22 @@ controllers/foraging_1/preinstall:
 controllers/foraging_1/clean: controllers/foraging_1/CMakeFiles/foraging_1.dir/clean
 controllers/foraging_1/clean: controllers/foraging_1/CMakeFiles/foraging_1_autogen.dir/clean
 .PHONY : controllers/foraging_1/clean
+
+#=============================================================================
+# Directory level rules for directory controllers/foraging_redteam
+
+# Recursive "all" directory target.
+controllers/foraging_redteam/all: controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/all
+.PHONY : controllers/foraging_redteam/all
+
+# Recursive "preinstall" directory target.
+controllers/foraging_redteam/preinstall:
+.PHONY : controllers/foraging_redteam/preinstall
+
+# Recursive "clean" directory target.
+controllers/foraging_redteam/clean: controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/clean
+controllers/foraging_redteam/clean: controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/clean
+.PHONY : controllers/foraging_redteam/clean
 
 #=============================================================================
 # Directory level rules for directory controllers/porting_example
@@ -412,7 +431,7 @@ loop_functions/trajectory_loop_functions/clean: loop_functions/trajectory_loop_f
 controllers/program_template/CMakeFiles/program_template.dir/all: controllers/program_template/CMakeFiles/program_template_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f controllers/program_template/CMakeFiles/program_template.dir/build.make controllers/program_template/CMakeFiles/program_template.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/program_template/CMakeFiles/program_template.dir/build.make controllers/program_template/CMakeFiles/program_template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=45,46,47 "Built target program_template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=49,50,51 "Built target program_template"
 .PHONY : controllers/program_template/CMakeFiles/program_template.dir/all
 
 # Build rule for subdir invocation for target.
@@ -438,7 +457,7 @@ controllers/program_template/CMakeFiles/program_template.dir/clean:
 controllers/program_template/CMakeFiles/program_template_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f controllers/program_template/CMakeFiles/program_template_autogen.dir/build.make controllers/program_template/CMakeFiles/program_template_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/program_template/CMakeFiles/program_template_autogen.dir/build.make controllers/program_template/CMakeFiles/program_template_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=48 "Built target program_template_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=52 "Built target program_template_autogen"
 .PHONY : controllers/program_template/CMakeFiles/program_template_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +483,7 @@ controllers/program_template/CMakeFiles/program_template_autogen.dir/clean:
 controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/all: controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/build.make controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/build.make controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=49,50,51 "Built target run_away_by_bumpers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=53,54,55 "Built target run_away_by_bumpers"
 .PHONY : controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -490,7 +509,7 @@ controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers.dir/clean:
 controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/build.make controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/build.make controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=52 "Built target run_away_by_bumpers_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=56 "Built target run_away_by_bumpers_autogen"
 .PHONY : controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -516,7 +535,7 @@ controllers/run_away_by_bumpers/CMakeFiles/run_away_by_bumpers_autogen.dir/clean
 controllers/simple_demo/CMakeFiles/simple_demo.dir/all: controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f controllers/simple_demo/CMakeFiles/simple_demo.dir/build.make controllers/simple_demo/CMakeFiles/simple_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/simple_demo/CMakeFiles/simple_demo.dir/build.make controllers/simple_demo/CMakeFiles/simple_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=57,58,59 "Built target simple_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=61,62,63 "Built target simple_demo"
 .PHONY : controllers/simple_demo/CMakeFiles/simple_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -542,7 +561,7 @@ controllers/simple_demo/CMakeFiles/simple_demo.dir/clean:
 controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/build.make controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/build.make controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=60 "Built target simple_demo_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=64 "Built target simple_demo_autogen"
 .PHONY : controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -568,7 +587,7 @@ controllers/simple_demo/CMakeFiles/simple_demo_autogen.dir/clean:
 controllers/porting_example/CMakeFiles/porting_example.dir/all: controllers/porting_example/CMakeFiles/porting_example_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f controllers/porting_example/CMakeFiles/porting_example.dir/build.make controllers/porting_example/CMakeFiles/porting_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/porting_example/CMakeFiles/porting_example.dir/build.make controllers/porting_example/CMakeFiles/porting_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38 "Built target porting_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=39,40,41,42 "Built target porting_example"
 .PHONY : controllers/porting_example/CMakeFiles/porting_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -594,7 +613,7 @@ controllers/porting_example/CMakeFiles/porting_example.dir/clean:
 controllers/porting_example/CMakeFiles/porting_example_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f controllers/porting_example/CMakeFiles/porting_example_autogen.dir/build.make controllers/porting_example/CMakeFiles/porting_example_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/porting_example/CMakeFiles/porting_example_autogen.dir/build.make controllers/porting_example/CMakeFiles/porting_example_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=39 "Built target porting_example_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=43 "Built target porting_example_autogen"
 .PHONY : controllers/porting_example/CMakeFiles/porting_example_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -620,7 +639,7 @@ controllers/porting_example/CMakeFiles/porting_example_autogen.dir/clean:
 controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/all: controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/build.make controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/build.make controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=53,54,55 "Built target sand_timer_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=57,58,59 "Built target sand_timer_test"
 .PHONY : controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -646,7 +665,7 @@ controllers/sand_timer_test/CMakeFiles/sand_timer_test.dir/clean:
 controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/build.make controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/build.make controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=56 "Built target sand_timer_test_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=60 "Built target sand_timer_test_autogen"
 .PHONY : controllers/sand_timer_test/CMakeFiles/sand_timer_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1030,13 +1049,65 @@ controllers/foraging_1/CMakeFiles/foraging_1_autogen.dir/clean:
 .PHONY : controllers/foraging_1/CMakeFiles/foraging_1_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir
+
+# All Build rule for target.
+controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/all: controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/depend
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target foraging_redteam"
+.PHONY : controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/all
+
+# Build rule for subdir invocation for target.
+controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles 0
+.PHONY : controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/rule
+
+# Convenience name for target.
+foraging_redteam: controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/rule
+.PHONY : foraging_redteam
+
+# clean rule for target.
+controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/clean:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/clean
+.PHONY : controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/clean
+
+#=============================================================================
+# Target rules for target controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir
+
+# All Build rule for target.
+controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=34 "Built target foraging_redteam_autogen"
+.PHONY : controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles 0
+.PHONY : controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/rule
+
+# Convenience name for target.
+foraging_redteam_autogen: controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/rule
+.PHONY : foraging_redteam_autogen
+
+# clean rule for target.
+controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/clean
+.PHONY : controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir
 
 # All Build rule for target.
 loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/all: loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/build.make loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/build.make loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target id_loop_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=35,36,37 "Built target id_loop_functions"
 .PHONY : loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1062,7 +1133,7 @@ loop_functions/id_loop_functions/CMakeFiles/id_loop_functions.dir/clean:
 loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/build.make loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/build.make loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=34 "Built target id_loop_functions_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=38 "Built target id_loop_functions_autogen"
 .PHONY : loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1088,7 +1159,7 @@ loop_functions/id_loop_functions/CMakeFiles/id_loop_functions_autogen.dir/clean:
 loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/all: loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=66,67,68,69 "Built target trajectory_loop_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=70,71,72,73 "Built target trajectory_loop_functions"
 .PHONY : loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1114,7 +1185,7 @@ loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions.di
 loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build.make loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=70 "Built target trajectory_loop_functions_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=74 "Built target trajectory_loop_functions_autogen"
 .PHONY : loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1140,7 +1211,7 @@ loop_functions/trajectory_loop_functions/CMakeFiles/trajectory_loop_functions_au
 loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/all: loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/build.make loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/build.make loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=40,41,42,43 "Built target pos_and_map_loop_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=44,45,46,47 "Built target pos_and_map_loop_functions"
 .PHONY : loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1166,7 +1237,7 @@ loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions.
 loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build.make loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build.make loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=44 "Built target pos_and_map_loop_functions_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=48 "Built target pos_and_map_loop_functions_autogen"
 .PHONY : loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1192,7 +1263,7 @@ loop_functions/pos_and_map_loop_functions/CMakeFiles/pos_and_map_loop_functions_
 loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/all: loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/build.make loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/build.make loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=61,62,63,64 "Built target tournament_loop_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=65,66,67,68 "Built target tournament_loop_functions"
 .PHONY : loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1218,7 +1289,7 @@ loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions.di
 loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/build.make loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/build.make loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=65 "Built target tournament_loop_functions_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=69 "Built target tournament_loop_functions_autogen"
 .PHONY : loop_functions/tournament_loop_functions/CMakeFiles/tournament_loop_functions_autogen.dir/all
 
 # Build rule for subdir invocation for target.

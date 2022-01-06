@@ -429,6 +429,32 @@ foraging_1_autogen/fast:
 .PHONY : foraging_1_autogen/fast
 
 #=============================================================================
+# Target rules for targets named foraging_redteam
+
+# Build rule for target.
+foraging_redteam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_redteam
+.PHONY : foraging_redteam
+
+# fast build rule for target.
+foraging_redteam/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam.dir/build
+.PHONY : foraging_redteam/fast
+
+#=============================================================================
+# Target rules for targets named foraging_redteam_autogen
+
+# Build rule for target.
+foraging_redteam_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 foraging_redteam_autogen
+.PHONY : foraging_redteam_autogen
+
+# fast build rule for target.
+foraging_redteam_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build.make controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build
+.PHONY : foraging_redteam_autogen/fast
+
+#=============================================================================
 # Target rules for targets named id_loop_functions
 
 # Build rule for target.
@@ -547,6 +573,7 @@ help:
 	@echo "... foraging_0_autogen"
 	@echo "... foraging_1_autogen"
 	@echo "... foraging_autogen"
+	@echo "... foraging_redteam_autogen"
 	@echo "... id_loop_functions_autogen"
 	@echo "... porting_example_autogen"
 	@echo "... pos_and_map_loop_functions_autogen"
@@ -563,6 +590,7 @@ help:
 	@echo "... foraging"
 	@echo "... foraging_0"
 	@echo "... foraging_1"
+	@echo "... foraging_redteam"
 	@echo "... id_loop_functions"
 	@echo "... porting_example"
 	@echo "... pos_and_map_loop_functions"
