@@ -48,6 +48,8 @@ void foraging_redteam_controller::loop() {
     bool nestOnRight = (colorFrontRight == ourBaseColor || colorRight == ourBaseColor) && !nestAhead;
     bool nestOnLeft = (colorFrontLeft == ourBaseColor || colorLeft == ourBaseColor) && !nestAhead;
 
+    cout <<krembot.getName() << ":" <<nestOnLeft<<nestAhead<<nestOnRight<< endl;
+
     switch (state) {
 
         case State::move: {

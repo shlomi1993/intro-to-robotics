@@ -12,7 +12,6 @@ int randomize(int from, int to) {
 
 void foraging_1_controller::setup() {
     krembot.setup();
-    cout << krembot.getId() << " : " << krembot.getName() << endl;
     writeTeamColor();
     teamName = "foraging_1_controller";
     spiralStartTimer.start(200);
@@ -51,18 +50,20 @@ void foraging_1_controller::loop() {
     bool nestOnRight = (colorFrontRight == ourBaseColor || colorRight == ourBaseColor) && !nestAhead;
     bool nestOnLeft = (colorFrontLeft == ourBaseColor || colorLeft == ourBaseColor) && !nestAhead;
 
-//    if (nestOnLeft || nestAhead || nestOnRight)
-//        cout << nestOnLeft << nestAhead << nestOnRight << " and hasFood=" << hasFood << endl;
-
     switch (state) {
 
         case State::spiralMove: {
-            if (hasFood) { state = State::rtb; }
-            else if (bumped) { state = State::move; }
+            if (hasFood) {
+                state = State::rtb;
+            }
+            else if (bumped) {
+                state = State::move;
+            }
             else if (spiralStartTimer.finished()) {
                 spiralEndTimer.start(220);
                 state = State::spiralTurn;
-            } else {
+            }
+            else {
                 krembot.Base.drive(100, 0);
             }
             break;
@@ -72,7 +73,7 @@ void foraging_1_controller::loop() {
             if (spiralEndTimer.finished()) {
                 spiral_turning_time = spiral_turning_time + adder * 200;
                 adder = (adder + 1) % 2;
-                spiralStartTimer.start(spiral_turning_time);
+                spiralStartTimer.start((millis_time_t) spiral_turning_time);
                 state = State::spiralMove;
             }
             else {
@@ -82,8 +83,16 @@ void foraging_1_controller::loop() {
         }
 
         case State::move: {
-            if (hasFood) { state = State::rtb; }
-            else if (obstacleAhead) {
+            if (hasFood) {
+                state = State::rtb;
+            }
+            else if (bumped) {
+                turning_speed = (int8_t) randomize(50, 100);
+                direction = (randomize(0, 10) % 2 == 0) ? -1 : 1;
+                sandTimer.start((millis_time_t) randomize(100, 440));
+                state = State::hardTurn;
+            }
+            else if (bumped || obstacleAhead) {
                 float rightDist = krembot.RgbaFrontRight.readRGBA().Distance;
                 float leftDist = krembot.RgbaFrontLeft.readRGBA().Distance;
                 direction = (rightDist < leftDist) ? 1 : -1;
@@ -105,19 +114,23 @@ void foraging_1_controller::loop() {
 
         case State::hardTurn: {
             if (sandTimer.finished()) {
-                state = State::move;
-            } else {
-                krembot.Base.drive(0, direction * turning_speed);
+                state = (hasFood) ? State::rtb : state = State::move;
+            }
+            else {
+                krembot.Base.drive(0, (int8_t) (direction * turning_speed));
             }
             break;
         }
 
         case State::softTurn: {
-            if (hasFood) { state = State::rtb; }
+            if (hasFood) {
+                state = State::rtb;
+            }
             else if (sandTimer.finished()) {
                 state = State::move;
-            } else {
-                krembot.Base.drive(50, direction * turning_speed);
+            }
+            else {
+                krembot.Base.drive(50, (int8_t) (direction * turning_speed));
             }
             break;
         }
@@ -128,34 +141,23 @@ void foraging_1_controller::loop() {
             }
             else if (nestOnRight) {
                 krembot.Base.drive(30, -100);
-            } else if (nestOnLeft) {
+            }
+            else if (nestOnLeft) {
                 krembot.Base.drive(30, 100);
-            } else if (obstacleAhead) {
+            }
+            else if (bumped || obstacleAhead) {
                 direction = (randomize(0, 10) % 2 == 0) ? -1 : 1;
                 sandTimer.start(220);
-                state = State::avoidObstacle;
-            } else if (robotAhead) {
+                state = State::hardTurn;
+            }
+            else if (robotAhead) {
                 float rightDist = krembot.RgbaFrontRight.readRGBA().Distance;
                 float leftDist = krembot.RgbaFrontLeft.readRGBA().Distance;
                 direction = (rightDist < leftDist) ? 1 : -1;
-                if (bumped) {
-                    direction = (randomize(0, 10) % 2 == 0) ? -1 : 1;
-                    sandTimer.start(220);
-                    state = State::avoidObstacle;
-                } else {
-                    krembot.Base.drive(50, 0);
-                }
-            } else {
-                krembot.Base.drive(100, 0);
+                krembot.Base.drive(60, 0);
             }
-            break;
-        }
-
-        case State::avoidObstacle: {
-            if (sandTimer.finished()) {
-                state = State::rtb;
-            } else {
-                krembot.Base.drive(0, direction * turning_speed);
+            else {
+                krembot.Base.drive(100, 0);
             }
             break;
         }

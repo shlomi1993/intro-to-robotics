@@ -12,3 +12,11 @@ arena	seed	time	first-name		first-score	second-name		second-score	winner
 easy	12	1250	foraging_1_controller		2	foraging_redteam_controller		1	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
 easy	12	2716	foraging_1_controller		0	foraging_redteam_controller		0	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	7307	foraging_1_controller		8	foraging_redteam_controller		4	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	100	foraging_1_controller		0	foraging_redteam_controller		0	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	5000	foraging_1_controller		7	foraging_redteam_controller		2	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	5000	foraging_1_controller		6	foraging_redteam_controller		2	foraging_1_controller (first team)
