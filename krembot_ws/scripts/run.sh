@@ -20,7 +20,12 @@ then
 	argos3 -c ./config/PRM.argos
 elif [ "$1" == "4" ]
 then
-	argos3 -c ./config/tournament.argos
+	if [ "$2" == "r" ]
+	then
+		argos3 -c ./config/tournament_redteam.argos
+	else 
+		argos3 -c ./config/tournament.argos
+	fi
 elif [ "$1" == "all" ]
 then
 	argos3 -c ./config/PRM.argos

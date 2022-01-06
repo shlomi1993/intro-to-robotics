@@ -5,8 +5,8 @@
 
 class foraging_1_controller : public foraging_controller {
 private:
-    enum State { move, hardTurn, softTurn, spiralTurn, block };
-    State state = move;
+    enum State { spiralMove, spiralTurn, move, softTurn, hardTurn, rtb, avoidObstacle };
+    State state = spiralMove;
     SandTimer sandTimer;
     int turning_speed = 100;
     int direction = 1;
