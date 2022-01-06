@@ -20,7 +20,7 @@
 
   <framework>
     <system threads="0" />
-    <experiment length="500" ticks_per_second="10" random_seed="12"/>
+    <experiment length="500" ticks_per_second="10" random_seed="5"/>
   </framework>
 
 

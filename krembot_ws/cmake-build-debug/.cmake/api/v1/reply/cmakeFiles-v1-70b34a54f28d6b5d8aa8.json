@@ -404,6 +404,9 @@
 			"path" : "controllers/foraging_1/CMakeLists.txt"
 		},
 		{
+			"path" : "controllers/foraging_redteam/CMakeLists.txt"
+		},
+		{
 			"path" : "loop_functions/CMakeLists.txt"
 		},
 		{

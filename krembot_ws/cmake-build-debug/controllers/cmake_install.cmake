@@ -56,6 +56,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging/cmake_install.cmake")
   include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_0/cmake_install.cmake")
   include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_1/cmake_install.cmake")
+  include("/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_redteam/cmake_install.cmake")
 
 endif()
 

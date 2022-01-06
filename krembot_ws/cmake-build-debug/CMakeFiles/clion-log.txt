@@ -16,20 +16,6 @@ CMake Warning at CMakeLists.txt:38 (find_package):
   installed.
 
 
-CMake Error at controllers/foraging_redteam/CMakeLists.txt:17 (add_library):
-  add_library cannot create target "foraging_0" because another target with
-  the same name already exists.  The existing target is a module library
-  created in source directory
-  "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/controllers/foraging_0".
-  See documentation for policy CMP0002 for more details.
-
-
-CMake Error at controllers/foraging_redteam/CMakeLists.txt:19 (target_link_libraries):
-  Attempt to add link library "Krembot" to target "foraging_0" which is not
-  built in this directory.
-
-  This is allowed only when policy CMP0079 is set to NEW.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug

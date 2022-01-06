@@ -357,3 +357,46 @@ void foraging_1_controller::loop() {
 
 }
 
+
+
+// SPIRALING:
+
+// for the setup:
+void foraging_1_controller::setup() {
+    krembot.setup();
+    writeTeamColor();
+    teamName = "foraging_1_controller";
+    spiralStartTimer.start(200);
+    spiralEndTimer.start(0);
+}
+
+// In the loop:
+        case State::spiralMove: {
+            if (hasFood) {
+                state = State::rtb;
+            }
+            else if (bumped) {
+                state = State::move;
+            }
+            else if (spiralStartTimer.finished()) {
+                spiralEndTimer.start(220);
+                state = State::spiralTurn;
+            }
+            else {
+                krembot.Base.drive(100, 0);
+            }
+            break;
+        }
+
+        case State::spiralTurn: {
+            if (spiralEndTimer.finished()) {
+                spiral_turning_time = spiral_turning_time + adder * 200;
+                adder = (adder + 1) % 2;
+                spiralStartTimer.start((millis_time_t) spiral_turning_time);
+                state = State::spiralMove;
+            }
+            else {
+                krembot.Base.drive(0, 100);
+            }
+            break;
+        }

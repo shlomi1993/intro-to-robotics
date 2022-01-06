@@ -17,4 +17,3 @@ target_link_libraries(${PROGRAM_NAME} Krembot
 	argos3plugin_simulator_footbot
 	argos3plugin_simulator_genericrobot
 )
-

@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "19"
+			"value" : "20"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2575,6 +2575,18 @@
 		},
 		{
 			"name" : "foraging_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;Krembot;general;argos3core_simulator;general;argos3plugin_simulator_footbot;general;argos3plugin_simulator_genericrobot;"
+		},
+		{
+			"name" : "foraging_redteam_LIB_DEPENDS",
 			"properties" : 
 			[
 				{

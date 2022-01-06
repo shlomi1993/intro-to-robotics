@@ -1,7 +1,21 @@
 #include "krembot.ino.h"
 #include <random>
 
+#define GREEN 10
+#define RED 20
+#define CYAN 30
+#define MAGENTA 40
+#define UNDEFINED 50
+
 using namespace std;
+
+int8_t rgba_to_color(RGBAResult x) {
+    if (x.Red == 0 && x.Green == 255 && x.Blue == 0) return GREEN;
+    if (x.Red == 255 && x.Green == 0 && x.Blue == 0) return RED;
+    if (x.Red == 255 && x.Green == 0 && x.Blue == 255) return MAGENTA;
+    if (x.Red == 0 && x.Green == 255 && x.Blue == 255) return CYAN;
+    return UNDEFINED;
+}
 
 int randomize(int from, int to) {
     random_device seed;
@@ -14,54 +28,67 @@ void foraging_redteam_controller::setup() {
     krembot.setup();
     writeTeamColor();
     teamName = "foraging_redteam_controller";
+    state = move;
+    turning_time = 220;
+    turning_speed = 100;
+    direction = 1;
+    if (foragingMsg.ourColor == "green") {
+        ourColor = GREEN;
+        ourBaseColor = CYAN;
+    } else {
+        ourColor = RED;
+        ourBaseColor = MAGENTA;
+    }
 }
 
 void foraging_redteam_controller::loop() {
     krembot.loop();
 
-    Colors colorFront = krembot.RgbaFront.readColor();
-    Colors colorFrontLeft = krembot.RgbaFrontLeft.readColor();
-    Colors colorFrontRight = krembot.RgbaFrontRight.readColor();
-    Colors colorLeft = krembot.RgbaLeft.readColor();
-    Colors colorRight = krembot.RgbaRight.readColor();
-    float distance = krembot.RgbaFront.readRGBA().Distance;
+    int8_t colorFront = rgba_to_color(krembot.RgbaFront.readRGBA());
+    int8_t colorFrontLeft = rgba_to_color(krembot.RgbaFrontLeft.readRGBA());
+    int8_t colorFrontRight = rgba_to_color(krembot.RgbaFrontRight.readRGBA());
+    int8_t colorLeft = rgba_to_color(krembot.RgbaLeft.readRGBA());
+    int8_t colorRight = rgba_to_color(krembot.RgbaRight.readRGBA());
     BumpersRes bumpers = krembot.Bumpers.read();
-    bool bumped = bumpers.front == BumperState::PRESSED ||
-                  bumpers.front_left == BumperState::PRESSED ||
-                  bumpers.front_right == BumperState::PRESSED;
 
-    if (foragingMsg.ourColor == "green") {
-        ourColor = Colors::Green;
-        ourBaseColor = Colors::Blue;
-        opponentColor = Colors::Red;
-    } else {
-        ourColor = Colors::Red;
-        ourBaseColor = Colors::Magenta;
-        opponentColor = Colors::Green;
-    }
-
-    bool obstacleAhead = distance < 10 && (colorFront == Colors::None || colorFrontLeft == Colors::None || colorFrontRight == Colors::None);
-    bool teammateAhead = colorFront == ourColor || colorFrontLeft == ourColor || colorFrontRight == ourColor;
-    bool opponentAhead = colorFront == opponentColor || colorFrontLeft == opponentColor || colorFrontRight == opponentColor;
-    bool robotAhead = teammateAhead || opponentAhead;
     bool nestAhead = colorFront == ourBaseColor;
     bool nestOnRight = (colorFrontRight == ourBaseColor || colorRight == ourBaseColor) && !nestAhead;
     bool nestOnLeft = (colorFrontLeft == ourBaseColor || colorLeft == ourBaseColor) && !nestAhead;
+    bool bumped = bumpers.front == BumperState::PRESSED || bumpers.front_left == BumperState::PRESSED ||
+                  bumpers.front_right == BumperState::PRESSED;
 
-    cout <<krembot.getName() << ":" <<nestOnLeft<<nestAhead<<nestOnRight<< endl;
+    // DEBUG
+    cout << krembot.getName() << ": " << nestOnLeft << nestAhead << nestOnRight << ((hasFood) ? " holds food" : "") << endl;
 
     switch (state) {
 
         case State::move: {
-            if (hasFood) { state = State::rtb_move; }
-            else if (bumped) {
-                turning_speed = randomize(50, 100);
-                turning_time = randomize(100, 440);
-                direction = (randomize(0, 10) % 2 == 0) ? -1 : 1;
+            if (hasFood) {
+                state = State::rtb;
+            } else if (bumped) {
+                turning_time = (millis_time_t) randomize(100, 500);
+                direction = (rand() % 2 == 0) ? -1 : 1;
                 sandTimer.start(turning_time);
                 state = State::turn;
+            } else {
+                krembot.Base.drive(100, 0);
             }
-            else {
+            break;
+        }
+
+        case State::rtb: {
+            if (!hasFood) {
+                state = State::move;
+            } else if (nestOnRight) {
+                krembot.Base.drive(30, -100);
+            } else if (nestOnLeft) {
+                krembot.Base.drive(30, 100);
+            } else if (bumped) {
+                turning_time = (millis_time_t) randomize(100, 500);
+                direction = (rand() % 2 == 0) ? -1 : 1;
+                sandTimer.start(turning_time);
+                state = State::turn;
+            } else {
                 krembot.Base.drive(100, 0);
             }
             break;
@@ -69,36 +96,9 @@ void foraging_redteam_controller::loop() {
 
         case State::turn: {
             if (sandTimer.finished()) {
-                state = State::move;
+                state = (hasFood) ? State::rtb : State::move;
             } else {
-                krembot.Base.drive(0, direction * turning_speed);
-            }
-            break;
-        }
-
-        case State::rtb_move: {
-            if (!hasFood) { state = State::move; }
-            else if (nestOnRight) {
-                krembot.Base.drive(30, -100);
-            } else if (nestOnLeft) {
-                krembot.Base.drive(30, 100);
-            } else if (bumped) {
-                turning_speed = randomize(50, 100);
-                turning_time = randomize(100, 440);
-                direction = (randomize(0, 10) % 2 == 0) ? -1 : 1;
-                sandTimer.start(turning_time);
-                state = State::rtb_turn;
-            } else {
-                krembot.Base.drive(100, 0);
-            }
-            break;
-        }
-
-        case State::rtb_turn: {
-            if (sandTimer.finished()) {
-                state = State::rtb_move;
-            } else {
-                krembot.Base.drive(0, direction * turning_speed);
+                krembot.Base.drive(0, (int8_t) (direction * turning_speed));
             }
             break;
         }
@@ -106,4 +106,3 @@ void foraging_redteam_controller::loop() {
     }
 
 }
-
