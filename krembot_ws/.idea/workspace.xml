@@ -28,13 +28,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a28ef151-5e21-45f2-b51f-d015f9a45c47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/tournament.argos" beforeDir="false" afterPath="$PROJECT_DIR$/config/tournament.argos" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/tournament_redteam.argos" beforeDir="false" afterPath="$PROJECT_DIR$/config/tournament_redteam.argos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/foraging_1/krembot.ino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/foraging_1/krembot.ino.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/foraging_1/krembot.ino.h" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/foraging_1/krembot.ino.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/foraging_redteam/krembot.ino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/foraging_redteam/krembot.ino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +217,7 @@
       <workItem from="1640351708540" duration="6886000" />
       <workItem from="1641308391050" duration="43658000" />
       <workItem from="1641449607048" duration="7108000" />
-      <workItem from="1641457480627" duration="8000" />
+      <workItem from="1641457480627" duration="8185000" />
     </task>
     <servers />
   </component>

@@ -5,26 +5,23 @@
 
 class foraging_1_controller : public foraging_controller {
 private:
-    enum State { spiralMove, spiralTurn, move, softTurn, hardTurn, rtb, avoidObstacle };
+    enum State { spiralMove, spiralTurn, move, rtb, softTurn, hardTurn };
     State state = spiralMove;
     SandTimer sandTimer;
-    int turning_speed = 100;
-    int direction = 1;
+    SandTimer spiralStartTimer, spiralEndTimer;
+    int8_t turning_speed = 100;
+    int8_t direction = 1;
     Colors ourColor, opponentColor;
     Colors ourBaseColor, opponentBaseColor;
+    int spiral_turning_time = 200;
+    int adder = 0;
+
     bool nestLocationIsEstimated = true;
     bool firstFoodCollected = false;
     bool directionSet = false;
-    SandTimer spiralStartTimer, spiralEndTimer;
-    int spiral_turning_time = 200;
-    int adder = 0;
 public:
     void setup() override;
     void loop() override;
-
-    bool isTowardNest();
-
-    CDegrees get_position_to_destination(CVector2 cur_pos, CVector2 next_dst);
 };
 
 
