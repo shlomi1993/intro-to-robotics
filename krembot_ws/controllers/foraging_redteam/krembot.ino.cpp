@@ -58,7 +58,7 @@ void foraging_redteam_controller::loop() {
                   bumpers.front_right == BumperState::PRESSED;
 
     // DEBUG
-    cout << krembot.getName() << ": " << nestOnLeft << nestAhead << nestOnRight << ((hasFood) ? " holds food" : "") << endl;
+    // cout << krembot.getName() << ": " << nestOnLeft << nestAhead << nestOnRight << ((hasFood) ? " holds food" : "") << endl;
 
     switch (state) {
 
