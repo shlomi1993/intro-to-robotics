@@ -1,42 +1,223 @@
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		6	foraging_redteam_controller		13	foraging_redteam_controller (second team)
+easy	1	5000	foraging_1_controller		12	foraging_redteam_controller		8	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		11	foraging_redteam_controller		12	foraging_redteam_controller (second team)
+easy	2	5000	foraging_1_controller		6	foraging_redteam_controller		13	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	3457	foraging_1_controller		5	foraging_redteam_controller		7	foraging_redteam_controller (second team)
+easy	3	5000	foraging_1_controller		6	foraging_redteam_controller		7	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		6	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+easy	4	5000	foraging_1_controller		11	foraging_redteam_controller		7	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		9	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+easy	5	5000	foraging_1_controller		7	foraging_redteam_controller		16	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		6	foraging_redteam_controller		8	foraging_redteam_controller (second team)
+easy	6	5000	foraging_1_controller		8	foraging_redteam_controller		9	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	1613	foraging_1_controller		3	foraging_redteam_controller		2	foraging_1_controller (first team)
+easy	7	5000	foraging_1_controller		9	foraging_redteam_controller		10	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		9	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+easy	8	5000	foraging_1_controller		7	foraging_redteam_controller		6	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		12	foraging_redteam_controller		6	foraging_1_controller (first team)
+easy	9	5000	foraging_1_controller		11	foraging_redteam_controller		7	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	2307	foraging_1_controller		1	foraging_redteam_controller		2	foraging_redteam_controller (second team)
+easy	10	5000	foraging_1_controller		13	foraging_redteam_controller		10	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	12	5000	foraging_1_controller		4	foraging_redteam_controller		11	foraging_redteam_controller (second team)
+easy	11	5000	foraging_1_controller		10	foraging_redteam_controller		11	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	10	5000	foraging_1_controller		2	foraging_redteam_controller		6	foraging_redteam_controller (second team)
+easy	12	5000	foraging_1_controller		9	foraging_redteam_controller		8	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	10	5000	foraging_1_controller		12	foraging_redteam_controller		10	foraging_1_controller (first team)
+easy	13	5000	foraging_1_controller		11	foraging_redteam_controller		8	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	10	5000	foraging_1_controller		11	foraging_redteam_controller		9	foraging_1_controller (first team)
+easy	14	5000	foraging_1_controller		7	foraging_redteam_controller		9	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	10	5000	foraging_1_controller		10	foraging_redteam_controller		7	foraging_1_controller (first team)
+easy	15	5000	foraging_1_controller		7	foraging_redteam_controller		7	tie
+
+
+----- SPIRALLING -----
+
+
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	1	5000	foraging_1_controller		17	foraging_redteam_controller		10	foraging_1_controller (first team)
+easy	1	5000	foraging_1_controller		13	foraging_redteam_controller		16	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	2	5000	foraging_1_controller		7	foraging_redteam_controller		7	tie
+easy	2	5000	foraging_1_controller		5	foraging_redteam_controller		6	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	3	5000	foraging_1_controller		11	foraging_redteam_controller		9	foraging_1_controller (first team)
+easy	3	5000	foraging_1_controller		10	foraging_redteam_controller		6	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	4	5000	foraging_1_controller		7	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+easy	4	5000	foraging_1_controller		8	foraging_redteam_controller		6	foraging_1_controller (first team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	4	5000	foraging_1_controller		8	foraging_redteam_controller		5	foraging_1_controller (first team)
+easy	5	5000	foraging_1_controller		12	foraging_redteam_controller		14	foraging_redteam_controller (second team)
 arena	seed	time	first-name		first-score	second-name		second-score	winner
-easy	5	5000	foraging_1_controller		16	foraging_redteam_controller		4	foraging_1_controller (first team)
+easy	6	5000	foraging_1_controller		7	foraging_redteam_controller		6	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	7	5000	foraging_1_controller		7	foraging_redteam_controller		9	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	8	5000	foraging_1_controller		10	foraging_redteam_controller		5	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	9	5000	foraging_1_controller		8	foraging_redteam_controller		6	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	10	5000	foraging_1_controller		7	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	11	5000	foraging_1_controller		11	foraging_redteam_controller		5	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	5000	foraging_1_controller		8	foraging_redteam_controller		8	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	13	5000	foraging_1_controller		6	foraging_redteam_controller		6	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	14	5000	foraging_1_controller		7	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	15	5000	foraging_1_controller		13	foraging_redteam_controller		10	foraging_1_controller (first team)
+
+
+----- ANOTHERTIMER -----
+
+
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	1	5000	foraging_1_controller		8	foraging_redteam_controller		9	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	2	5000	foraging_1_controller		8	foraging_redteam_controller		11	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	3	5000	foraging_1_controller		12	foraging_redteam_controller		6	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	4	5000	foraging_1_controller		10	foraging_redteam_controller		9	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	5	5000	foraging_1_controller		14	foraging_redteam_controller		9	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	6	5000	foraging_1_controller		9	foraging_redteam_controller		12	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	7	5000	foraging_1_controller		7	foraging_redteam_controller		4	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	8	5000	foraging_1_controller		11	foraging_redteam_controller		9	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	9	5000	foraging_1_controller		10	foraging_redteam_controller		4	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	10	5000	foraging_1_controller		8	foraging_redteam_controller		7	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	11	5000	foraging_1_controller		8	foraging_redteam_controller		13	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	5000	foraging_1_controller		9	foraging_redteam_controller		9	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	13	5000	foraging_1_controller		10	foraging_redteam_controller		8	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	14	5000	foraging_1_controller		10	foraging_redteam_controller		6	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	15	5000	foraging_1_controller		10	foraging_redteam_controller		12	foraging_redteam_controller (second team)
+
+
+----- ANOTHERTIMER RAND -----
+
+
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	1	5000	foraging_1_controller		11	foraging_redteam_controller		10	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	2	5000	foraging_1_controller		12	foraging_redteam_controller		8	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	3	5000	foraging_1_controller		11	foraging_redteam_controller		12	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	4	5000	foraging_1_controller		7	foraging_redteam_controller		5	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	5	5000	foraging_1_controller		10	foraging_redteam_controller		8	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	6	5000	foraging_1_controller		8	foraging_redteam_controller		10	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	7	5000	foraging_1_controller		5	foraging_redteam_controller		4	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	8	5000	foraging_1_controller		8	foraging_redteam_controller		9	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	9	5000	foraging_1_controller		8	foraging_redteam_controller		8	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	10	5000	foraging_1_controller		9	foraging_redteam_controller		7	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	11	5000	foraging_1_controller		8	foraging_redteam_controller		12	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	5000	foraging_1_controller		10	foraging_redteam_controller		12	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	13	5000	foraging_1_controller		9	foraging_redteam_controller		9	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	14	5000	foraging_1_controller		7	foraging_redteam_controller		7	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	15	5000	foraging_1_controller		7	foraging_redteam_controller		5	foraging_1_controller (first team)
+
+
+----- AGAIN -----
+
+
+
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	1	5000	foraging_1_controller		7	foraging_redteam_controller		9	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	2	5000	foraging_1_controller		8	foraging_redteam_controller		11	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	3	5000	foraging_1_controller		11	foraging_redteam_controller		10	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	4	5000	foraging_1_controller		10	foraging_redteam_controller		7	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	5	5000	foraging_1_controller		13	foraging_redteam_controller		7	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	6	5000	foraging_1_controller		11	foraging_redteam_controller		9	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	7	5000	foraging_1_controller		9	foraging_redteam_controller		6	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	8	5000	foraging_1_controller		8	foraging_redteam_controller		6	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	9	5000	foraging_1_controller		7	foraging_redteam_controller		9	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	10	5000	foraging_1_controller		3	foraging_redteam_controller		6	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	11	5000	foraging_1_controller		7	foraging_redteam_controller		11	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	5000	foraging_1_controller		8	foraging_redteam_controller		7	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	13	5000	foraging_1_controller		7	foraging_redteam_controller		7	tie
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	14	5000	foraging_1_controller		7	foraging_redteam_controller		17	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	15	5000	foraging_1_controller		9	foraging_redteam_controller		7	foraging_1_controller (first team)
+
+
+------ 1K ticks -----
+
+
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	1	10000	foraging_1_controller		24	foraging_redteam_controller		22	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	2	10000	foraging_1_controller		19	foraging_redteam_controller		22	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	3	10000	foraging_1_controller		18	foraging_redteam_controller		24	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	4	10000	foraging_1_controller		18	foraging_redteam_controller		13	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	5	10000	foraging_1_controller		28	foraging_redteam_controller		22	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	6	10000	foraging_1_controller		24	foraging_redteam_controller		19	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	7	10000	foraging_1_controller		27	foraging_redteam_controller		20	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	8	10000	foraging_1_controller		23	foraging_redteam_controller		21	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	9	10000	foraging_1_controller		17	foraging_redteam_controller		14	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	10	10000	foraging_1_controller		26	foraging_redteam_controller		16	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	11	10000	foraging_1_controller		15	foraging_redteam_controller		18	foraging_redteam_controller (second team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	12	10000	foraging_1_controller		22	foraging_redteam_controller		21	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	13	10000	foraging_1_controller		17	foraging_redteam_controller		11	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	14	10000	foraging_1_controller		22	foraging_redteam_controller		16	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	15	10000	foraging_1_controller		15	foraging_redteam_controller		16	foraging_redteam_controller (second team)
+
+
+----- 10K ticks -----
+
+
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	1	100000	foraging_1_controller		211	foraging_redteam_controller		189	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	2	100000	foraging_1_controller		181	foraging_redteam_controller		175	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	3	100000	foraging_1_controller		199	foraging_redteam_controller		193	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	4	100000	foraging_1_controller		182	foraging_redteam_controller		138	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	5	100000	foraging_1_controller		225	foraging_redteam_controller		188	foraging_1_controller (first team)
+arena	seed	time	first-name		first-score	second-name		second-score	winner
+easy	6	100000	foraging_1_controller		189	foraging_redteam_controller		174	foraging_1_controller (first team)

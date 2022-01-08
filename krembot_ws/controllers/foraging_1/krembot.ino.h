@@ -1,18 +1,21 @@
+// Shlomi Ben-Shushan 311408264
+// Yiftach Neuman 208305359
+
 #include <Krembot/controller/krembot_controller.h>
 #include "controllers/foraging/krembot.ino.h"
 
+/*
+ * Class:       foraging_1_controller
+ * Description: The controller of forager-1 robot.
+ */
 class foraging_1_controller : public foraging_controller {
 private:
     enum State { spiralMove, spiralTurn, move, rtb, softTurn, hardTurn };
     State state;
-    SandTimer sandTimer;
-    SandTimer spiralStartTimer, spiralEndTimer;
-    millis_time_t spiral_turning_time;
-    millis_time_t turning_time;
-    int8_t turning_speed;
+    SandTimer sandTimer, spiralTurnTimer, spiralStartTimer;
+    millis_time_t time_until_next_turn;
     int8_t direction;
-    int8_t ourColor, theirColor;
-    int8_t ourBaseColor, opponentBaseColor;
+    int8_t ourColor, theirColor, ourBaseColor;
     int8_t adder;
 public:
     void setup() override;
