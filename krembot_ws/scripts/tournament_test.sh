@@ -13,10 +13,10 @@ do
 	prev=$(expr $i - 1)
 	sed -i "s/random_seed=\"$prev\"/random_seed=\"$i\"/" tournament_redteam.argos
 	cd ..
-	echo "Run experiment $i" ; echo
+	echo "Run experiment $i"
 	unset ARGOS_PLUGIN_PATH
-	argos3 -c ./config/tournament_redteam.argos
-	echo "Experiment $i completed!" ; echo
+	argos3 -c ./config/tournament_redteam.argos > /dev/null 2>&1
+	echo "Experiment $i completed!"
 done
 
 cd ./config

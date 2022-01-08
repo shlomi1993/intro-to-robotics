@@ -103,6 +103,7 @@ void foraging_1_controller::loop() {
     // DEBUG
     // cout<<krembot.getName()<<": "<<nestOnLeft<<nestAhead<<nestOnRight<<((hasFood) ? " holds food" : "")<<endl;
 
+    // Activate spiralling mode in every 1.5-3 minutes.
     if (spiralStartTimer.finished()) {
         state = State::spiralMove;
         spiralStartTimer.start((millis_time_t) randomize(90000, 180000));
@@ -140,9 +141,9 @@ void foraging_1_controller::loop() {
             break;
         }
 
-        // After the spiralling phase, the robot is wandering until it finds food. If it senses a teammate ahead, it
-        // will soft-turn in order to spread robots in the arena or make way to food-carrying teammates. If it senses an
-        // obstacle or bumped into something, it will hard-turn.
+        // In this state, the robot is wandering until it finds food. If it senses a teammate ahead, it will soft-turn
+        // in order to spread robots in the arena or make way to food-carrying teammates. If it senses an obstacle or
+        // bumped into something, it will hard-turn.
         case State::move: {
             if (hasFood) {
                 state = State::rtb;
@@ -179,8 +180,8 @@ void foraging_1_controller::loop() {
         }
 
         // Once the robot finds food, it switches to RTB state, i.e., Return-To-Base. This state is similar to move
-        // state except that it makes the robot turn to the nest if it senses its color around, and if it senses a robot
-        // ahead, it will slow down to let him pass (unless it bumped into it, and then it will hard-turn).
+        // state except that it makes the robot turn to the nest if it senses its color around. Also, in is state the
+        // robot is indifferent to other robots.
         case State::rtb: {
             if (!hasFood) {
                 state = State::move;
