@@ -12,6 +12,8 @@
 
 using namespace std;
 
+int n_robots = 0;
+
 /*
  * Function:    rgba_to_color
  * Input:       RGBAResult object
@@ -55,10 +57,12 @@ void foraging_1_controller::setup() {
         ourColor = GREEN;
         ourBaseColor = CYAN;
         theirColor = RED;
+        theirBaseColor = MAGENTA;
     } else {
         ourColor = RED;
         ourBaseColor = MAGENTA;
         theirColor = GREEN;
+        theirBaseColor = CYAN;
     }
 
     // Basic setup.
@@ -68,6 +72,8 @@ void foraging_1_controller::setup() {
     adder = 0;
     spiralTurnTimer.start(time_until_next_turn);
     spiralStartTimer.start((millis_time_t) randomize(120000, 240000));
+    towardOpponentNest = false;
+    n_robots += 1;
 
 }
 
@@ -97,11 +103,12 @@ void foraging_1_controller::loop() {
     bool nestAhead = colorFront == ourBaseColor;
     bool nestOnRight = (colorFrontRight == ourBaseColor || colorRight == ourBaseColor) && !nestAhead;
     bool nestOnLeft = (colorFrontLeft == ourBaseColor || colorLeft == ourBaseColor) && !nestAhead;
+    bool opponentNestAhead = colorFront == theirBaseColor;
+    bool opponentNestOnRight = (colorFrontRight == theirBaseColor || colorRight == theirBaseColor) && !nestAhead;
+    bool opponentNestOnLeft = (colorFrontLeft == theirBaseColor || colorLeft == theirBaseColor) && !nestAhead;
+    bool opponentNestOnFront = opponentNestAhead || opponentNestOnRight || opponentNestOnLeft;
     bool bumped = bumpers.front == BumperState::PRESSED || bumpers.front_left == BumperState::PRESSED ||
                   bumpers.front_right == BumperState::PRESSED;
-
-    // DEBUG
-    // cout<<krembot.getName()<<": "<<nestOnLeft<<nestAhead<<nestOnRight<<((hasFood) ? " holds food" : "")<<endl;
 
     // Activate spiralling mode in every 1.5-3 minutes.
     if (spiralStartTimer.finished()) {
@@ -114,7 +121,9 @@ void foraging_1_controller::loop() {
         // In the spiralling phase, the robot scans its surroundings for food in a spiral motion.
         // This phase ends when the robot finds food or bumped into something.
         case State::spiralMove: {
-            if (hasFood) {
+            if (n_robots > 1 && opponentNestOnFront) {
+                state = State::blockNest;
+            } else if (hasFood) {
                 state = State::rtb;
             } else if (bumped) {
                 state = State::move;
@@ -145,7 +154,9 @@ void foraging_1_controller::loop() {
         // in order to spread robots in the arena or make way to food-carrying teammates. If it senses an obstacle or
         // bumped into something, it will hard-turn.
         case State::move: {
-            if (hasFood) {
+            if (n_robots > 1 && opponentNestOnFront) {
+                state = State::blockNest;
+            } else if (hasFood) {
                 state = State::rtb;
             } else if (bumped) {
                 bool leftPressed = bumpers.front_left == BumperState::PRESSED;
@@ -183,7 +194,9 @@ void foraging_1_controller::loop() {
         // state except that it makes the robot turn to the nest if it senses its color around. Also, in is state the
         // robot is indifferent to other robots.
         case State::rtb: {
-            if (!hasFood) {
+            if (n_robots > 1 && opponentNestOnFront) {
+                state = State::blockNest;
+            } else if (!hasFood) {
                 state = State::move;
             } else if (nestOnRight) {
                 krembot.Base.drive(30, -100);
@@ -227,12 +240,31 @@ void foraging_1_controller::loop() {
 
         // In soft-turn state the robot's wheels spins in the same directions, but one spins faster than the other.
         case State::softTurn: {
-            if (hasFood) {
+            if (n_robots > 1 && opponentNestOnFront) {
+                state = State::blockNest;
+            } else if (hasFood) {
                 state = State::rtb;
             } else if (sandTimer.finished()) {
                 state = State::move;
             } else {
                 krembot.Base.drive(50, (int8_t) (direction * 100));
+            }
+            break;
+        }
+
+        case State::blockNest: {
+            if (towardOpponentNest && !opponentNestOnFront) {
+                krembot.Base.stop();
+            } else if (opponentNestOnRight) {
+                krembot.Base.drive(30, -100);
+            } else if (opponentNestOnLeft) {
+                krembot.Base.drive(30, 100);
+            } else if (opponentNestAhead) {
+                krembot.Base.drive(100, 0);
+                towardOpponentNest = true;
+            } else {
+                state = (hasFood) ? State::rtb : State::move;
+                krembot.Base.drive(100, 0);
             }
             break;
         }
