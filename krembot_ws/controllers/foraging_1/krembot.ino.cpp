@@ -119,7 +119,7 @@ void foraging_1_controller::loop() {
     switch (state) {
 
         // In the spiralling phase, the robot scans its surroundings for food in a spiral motion.
-        // This phase ends when the robot finds food or bumped into something.
+        // This phase ends when the robot finds food, bumped into something or finds the opponent's nest.
         case State::spiralMove: {
             if (n_robots > 1 && opponentNestOnFront) {
                 state = State::blockNest;
@@ -139,8 +139,9 @@ void foraging_1_controller::loop() {
         // To implement spiral movement, the robot has to turn in 90 degrees and double its range every second time.
         case State::spiralTurn: {
             if (sandTimer.finished()) {
-                if (adder % 2)
+                if (adder % 2) {
                     time_until_next_turn += 200;
+                }
                 ++adder;
                 spiralTurnTimer.start(time_until_next_turn);
                 state = State::spiralMove;
@@ -152,7 +153,7 @@ void foraging_1_controller::loop() {
 
         // In this state, the robot is wandering until it finds food. If it senses a teammate ahead, it will soft-turn
         // in order to spread robots in the arena or make way to food-carrying teammates. If it senses an obstacle or
-        // bumped into something, it will hard-turn.
+        // bumped into something, it will hard-turn. In addition, if it finds the opponent's nest, it will block it.
         case State::move: {
             if (n_robots > 1 && opponentNestOnFront) {
                 state = State::blockNest;
@@ -191,8 +192,8 @@ void foraging_1_controller::loop() {
         }
 
         // Once the robot finds food, it switches to RTB state, i.e., Return-To-Base. This state is similar to move
-        // state except that it makes the robot turn to the nest if it senses its color around. Also, in is state the
-        // robot is indifferent to other robots.
+        // state except that it makes the robot turn to the nest if it senses its color around, and there robot is
+        // indifferent to other robots. In addition, if the robot senses the opponent's nest, it will block it.
         case State::rtb: {
             if (n_robots > 1 && opponentNestOnFront) {
                 state = State::blockNest;
@@ -239,6 +240,7 @@ void foraging_1_controller::loop() {
         }
 
         // In soft-turn state the robot's wheels spins in the same directions, but one spins faster than the other.
+        // In addition, if the robot senses the opponent's nest, it will block it.
         case State::softTurn: {
             if (n_robots > 1 && opponentNestOnFront) {
                 state = State::blockNest;
