@@ -20,7 +20,7 @@
 
   <framework>
     <system threads="0" />
-    <experiment length="100000" ticks_per_second="10" random_seed="0"/>
+    <experiment length="100000" ticks_per_second="10" random_seed="12"/>
   </framework>
 
 
@@ -166,14 +166,14 @@
 	<!-- * Visualization * -->
 	<!-- ****************** -->
 	<visualization>
-		<!--qt-opengl  autoplay="true">
+		<qt-opengl  autoplay="true">
 			<user_functions library="build/loop_functions/tournament_loop_functions/libtournament_loop_functions.so" label="tournament_qt_user_functions" />
 			<camera>
 				<placements>
 					<placement index="0" position="-5,0,15" look_at="0,0,0" up="1,0,0" lens_focal_length="65" />
 				</placements>
 			</camera>
-	  </qt-opengl-->
+	  </qt-opengl>
 	</visualization>
   <!-- *****<visualization>
     <qt-opengl  autoplay="false">
