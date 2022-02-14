@@ -28,7 +28,7 @@ In ARGoS, the software component that simulates a real robot is named Footbot. T
 A mission or experiment are defined by _.argos_ files that are kind of XMLs that setting up the arena, its size, obstacles in it and other experiment preferences. For each mission/experiment/exercise, there is an _.argos_ file in the directory krembot_ws/config. The _.argos_ file is referencing C++ files that defines Krembots' behaviors.
 
 To run an experiment use the command:
-> argos 3 -c <_config_>
+> $ argos 3 -c <_config_>
  
 where <_config_> should be replaced by the path to the _.argos_ file that defines the experiment.
 
