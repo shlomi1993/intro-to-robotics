@@ -4,9 +4,7 @@
 ## Description
 In this repository you can find implementations in C++ of Krembots behaviors for ARGoS simulator.
 
-![image](https://user-images.githubusercontent.com/72878018/153824673-beb81f26-1070-4c31-a9aa-152c3d688241.png)
-![image](https://user-images.githubusercontent.com/72878018/153824729-970bbb09-58ed-4905-8e87-b6ee3105596c.png)
-![image](https://user-images.githubusercontent.com/72878018/153825157-e49bc2fd-eb51-4842-8429-ac8fb14d443b.png)
+![image](https://user-images.githubusercontent.com/72878018/153840327-123a6892-6c9a-420d-8570-128641f730ca.png)
 
 (image source: https://www.argos-sim.info/examples.php)
 
