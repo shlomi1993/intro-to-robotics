@@ -97,7 +97,36 @@ For the full report:
 
 
 ## Exercise 4 - Foraging Tournament
-(TO BE CONTINUED)
+
+In this exercise we have implemented an algorithm that let the Krembot forage in an unknown arena without using its current position. We used this algorithm in an
+Adversarial Foraging tournament where we competed with other classmates and won the 2nd place out of 18 teams. Our team number was 1. To improve our algorithm to a level it could compete in the tournament, we used the red team. That is, we have developed another algorithm that is supposed to simulate an opponent and compete with our original algorithm that is now called blue team. When the red team defeated the blue team, we improved the blue team, but when the red team won significantly, we turned it into a blue team and developed a new red team.
+
+**Presentation:** We had to present our strategy and red team to the class sevral days before the tournament, means we could change out strategy after the presentation. Here are the slides:
+> https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Presentation.pdf
+
+Experiment's original definition:
+> https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/tournament.argos
+
+But for developing our algotirhm using red team we used the custom definition:
+> https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/tournament_redteam.argos
+
+Blue Team Controller:
+> https://github.com/shlomi1993/Intro-to-Robotics/tree/main/krembot_ws/controllers/foraging_1
+
+Red Team Controller:
+> https://github.com/shlomi1993/Intro-to-Robotics/tree/main/krembot_ws/controllers/foraging_redteam
+
+To run the experiment against a naive foraging algorithm, navigate to krembot_ws directory, and run the command:
+> $ scripts/run.sh tournament
+
+Or to run it against the red team, navigate to krembot_ws directory, and run the command:
+> $ scripts/run.sh tournament r
+
+For the full blue team report:
+> https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Blue_Team_Report.pdf
+
+For the full blue team report:
+> https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Red_Team_Report.pdf
 
 
 ## IDEs, Writers and Tools
@@ -111,10 +140,17 @@ For the full report:
 
 ## Notes
 * For your ease, you can use the scripts in the krembot_ws/scripts directory to compile the project and run a simulation easily.
-* (TO BE CONTINUED)
+* The simulator can be run on different distributions of Linux as well as on WSL2, but you may need to configure a lot of things for it to work.
 
 
 ## Screenshots
-(TO BE CONTINUED)
 
+Exercise 2 - Example of a covarage result:
+
+![image](https://user-images.githubusercontent.com/72878018/153854561-7ad0823c-bda4-460a-b51a-36514cbbfc41.png)
+
+
+Exercise 3 - Example of a navigation result using L2 metric and K=30:
+
+![image](https://user-images.githubusercontent.com/72878018/153854815-7f4d4f05-3905-4517-87ed-bf270f46f2f0.png)
 
