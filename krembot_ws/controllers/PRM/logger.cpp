@@ -1,5 +1,4 @@
-// Shlomi Ben-Shushan [REDACTED_ID]
-// Yiftach Neuman 208305359
+// Shlomi Ben-Shushan & Yiftach Neuman
 
 #include "logger.h"
 

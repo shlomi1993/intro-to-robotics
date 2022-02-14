@@ -1,6 +1,3 @@
-# Shlomi Ben-Shushan [REDACTED_ID]
-# Khen Aharon 307947515
-
 set (CMAKE_CXX_STANDARD 11)
 
 set(PROGRAM_NAME "ex2")
