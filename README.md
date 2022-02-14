@@ -72,11 +72,11 @@ Experiment's definition:
 Controller:
 > https://github.com/shlomi1993/Intro-to-Robotics/tree/main/krembot_ws/controllers/ex2
 
-To run the experiment, navigate to krembot_ws directory, and run the command:
-> $ scripts/run.sh wanderbot
-
 For the full report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex2_Report.pdf
+
+To run the experiment, navigate to krembot_ws directory, and run the command:
+> $ scripts/run.sh wanderbot
 
 
 ## Exercise 3 - Navigation with PRM
@@ -89,11 +89,11 @@ Experiment's definition:
 Controller:
 > https://github.com/shlomi1993/Intro-to-Robotics/tree/main/krembot_ws/controllers/PRM
 
-To run the experiment, navigate to krembot_ws directory, and run the command:
-> $ scripts/run.sh navigation
-
 For the full report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex3_Report.pdf
+
+To run the experiment, navigate to krembot_ws directory, and run the command:
+> $ scripts/run.sh navigation
 
 
 ## Exercise 4 - Foraging Tournament
@@ -116,17 +116,17 @@ Blue Team Controller:
 Red Team Controller:
 > https://github.com/shlomi1993/Intro-to-Robotics/tree/main/krembot_ws/controllers/foraging_redteam
 
-To run the experiment against a naive foraging algorithm, navigate to krembot_ws directory, and run the command:
-> $ scripts/run.sh tournament
-
-Or to run it against the red team, navigate to krembot_ws directory, and run the command:
-> $ scripts/run.sh tournament r
-
 For the full blue team report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Blue_Team_Report.pdf
 
 For the full blue team report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Red_Team_Report.pdf
+
+To run the experiment against a naive foraging algorithm, navigate to krembot_ws directory, and run the command:
+> $ scripts/run.sh tournament
+
+Or to run it against the red team, navigate to krembot_ws directory, and run the command:
+> $ scripts/run.sh tournament r
 
 
 ## IDEs, Writers and Tools
@@ -147,10 +147,9 @@ For the full blue team report:
 
 Exercise 2 - Example of a covarage result:
 
-![image](https://user-images.githubusercontent.com/72878018/153854561-7ad0823c-bda4-460a-b51a-36514cbbfc41.png)
+![image](https://user-images.githubusercontent.com/72878018/153855742-dbf5d4a9-f2dd-473f-8cb8-b0c08ac49309.png)
 
 
 Exercise 3 - Example of a navigation result using L2 metric and K=30:
 
-![image](https://user-images.githubusercontent.com/72878018/153854815-7f4d4f05-3905-4517-87ed-bf270f46f2f0.png)
-
+![image](https://user-images.githubusercontent.com/72878018/153855751-c04b0825-a87b-4316-9edd-2b0e656d7357.png)
