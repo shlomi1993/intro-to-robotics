@@ -36,7 +36,9 @@ As was said before, Krembots' behaviors are defined by C++ files. A C++ program 
 
 
 ## Exercise 1 - Warmup
-This exercise is a warm-up exercise only. It is designed to install the working environment and to make sure all the simulator components are working properly. As part of this exercise, we have implemented a simple controller code that causes the kremboot to drive straight and stop about 15 meters from an obstacle in front. You can find the experiment's definition in _krembot_ws/config/ex1.argos_, and the controller implementation in _krembot_ws/controllers/ex1_.
+This exercise is a warm-up exercise only. It is designed to install the working environment and to make sure all the simulator components are working properly. As part of this exercise, we have implemented a simple controller code that causes the kremboot to drive straight and stop about 15 meters from an obstacle in front.
+
+You can find the experiment's definition in _krembot_ws/config/ex1.argos_, and the controller implementation in _krembot_ws/controllers/ex1_.
 
 To run the experiment, navigate to krembot_ws directory, and run the command:
 > $ scripts/run.sh warmup
@@ -64,6 +66,8 @@ In this exercise we have implemented a coverage algorithm that let the krembot w
 Note that we inferred that it doesn't matter if one of the other bumpers pressed because the driving is forward. We found that the rear bumpers never pressed, but sometimes the right or the left bumpers are pressed. We decided to ignore side presses because the driving is forward so we can save turnings.
 
 For more information about the exercise you can read the full report: https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics%20-%20ex2%20-%20Report.pdf.
+
+You can find the experiment's definition in _krembot_ws/config/ex2.argos_, and the controller implementation in _krembot_ws/controllers/ex2_.
 
 To run the experiment, navigate to krembot_ws directory, and run the command:
 > $ scripts/run.sh wanderbot
@@ -144,12 +148,15 @@ To make the robot able to receive new tasks and plan their execution in running 
 
 For more information about the exercise you can read the full report: https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics%20-%20ex3%20-%20Report.pdf.
 
+You can find the experiment's definition in _krembot_ws/config/PRM.argos_, and the controller implementation in _krembot_ws/controllers/PRM_.
+
 To run the experiment, navigate to krembot_ws directory, and run the command:
 > $ scripts/run.sh navigation
 
 
 ### Exercise 4 - Foraging Tournament
 
+(TO BE CONTINUED)
 
 ## IDEs, Writers and Tools
 
@@ -162,8 +169,10 @@ To run the experiment, navigate to krembot_ws directory, and run the command:
 
 ## Notes
 * For your ease, you can use the scripts in the krembot_ws/scripts directory to compile the project and run a simulation easily.
-
+* (TO BE CONTINUED)
 
 
 ## Screenshots
+(TO BE CONTINUED)
+
 
