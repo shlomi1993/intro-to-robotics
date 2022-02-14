@@ -1,5 +1,4 @@
-// Shlomi Ben-Shushan 311408264
-// Yiftach Neuman 208305359
+// Shlomi Ben-Shushan & Yiftach Neuman
 
 #include "krembot.ino.h"
 #include <random>
@@ -274,4 +273,3 @@ void foraging_1_controller::loop() {
     }
 
 }
-

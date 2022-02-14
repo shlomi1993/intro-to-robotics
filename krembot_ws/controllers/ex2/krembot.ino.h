@@ -1,7 +1,4 @@
-// Shlomi Ben-Shushan 311408264
-// Yiftach Neuman 208305359
-
-// We didn't change anything in this file.
+// Shlomi Ben-Shushan & Yiftach Neuman
 
 #include <Krembot/controller/krembot_controller.h>
 

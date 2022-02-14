@@ -1,3 +1,6 @@
+<!-- Shlomi Ben-Shushan & Yiftach Neuman -->
+
+
 <?xml version="1.0" ?>
 
 
@@ -20,7 +23,7 @@
 
   <framework>
     <system threads="0" />
-    <experiment length="100000" ticks_per_second="10" random_seed="12"/>
+    <experiment length="100000" ticks_per_second="10" random_seed="0"/>
   </framework>
 
 

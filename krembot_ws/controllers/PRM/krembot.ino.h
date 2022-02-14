@@ -1,5 +1,4 @@
-// Shlomi Ben-Shushan 311408264
-// Yiftach Neuman 208305359
+// Shlomi Ben-Shushan & Yiftach Neuman
 
 #include <Krembot/controller/krembot_controller.h>
 #include <cstdlib>

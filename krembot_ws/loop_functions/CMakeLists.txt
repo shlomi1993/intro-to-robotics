@@ -1,6 +1,3 @@
-# Shlomi Ben-Shushan 311408264
-# Yiftach Neuman 208305359
-
 include_directories(${CMAKE_SOURCE_DIR})
 
 # If Qt+OpenGL dependencies were found, descend into these directories

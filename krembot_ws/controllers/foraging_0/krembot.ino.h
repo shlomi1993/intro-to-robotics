@@ -1,7 +1,6 @@
 #include <Krembot/controller/krembot_controller.h>
 #include "controllers/foraging/krembot.ino.h"
 
-
 class foraging_0_controller : public foraging_controller {
 private:
     enum State{
@@ -19,6 +18,5 @@ public:
     void setup() override;
     void loop() override;
 };
-
 
 REGISTER_CONTROLLER(foraging_0_controller, "foraging_0_controller")

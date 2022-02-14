@@ -1,7 +1,5 @@
 #include "krembot.ino.h"
 
-
-
 void foraging_0_controller::setup() {
     krembot.setup();
     writeTeamColor();
@@ -43,4 +41,3 @@ void foraging_0_controller::loop() {
     }
 
 }
-
