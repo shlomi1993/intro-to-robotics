@@ -129,7 +129,7 @@ Or to run it against the red team, navigate to krembot_ws directory, and run the
 > $ scripts/run.sh tournament r
 
 
-## IDEs, Writers and Tools
+## IDEs, Editors and Tools
 
 1. JetBrains CLION
 2. Visual Studio Code
