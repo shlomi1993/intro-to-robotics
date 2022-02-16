@@ -119,7 +119,7 @@ Red Team Controller:
 For the full blue team report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Blue_Team_Report.pdf
 
-For the full blue team report:
+For the full red team report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Red_Team_Report.pdf
 
 To run the experiment against a naive foraging algorithm, navigate to krembot_ws directory, and run the command:
