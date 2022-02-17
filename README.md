@@ -13,14 +13,14 @@ In this repository you can find implementations in C++ of Krembots behaviors for
 
 **Krembot Simulator** is a physics-based 3D simulator for Robotican's Krembot robot. Original code by Elhay Rauper for Bar Ilan University and the ISF Smart Swarms center. Uses and modifies (and adds to) the Argos multi-robot simulator.
 
-**Note:** In ARGoS, the software component that simulates a real robot is named Footbot. The FootBot version of Computer Science department in Bar-Ilan University is named Krembot.
+**Note:** In ARGoS, the software component that simulates a real robot is named Footbot. The Footbot version of Computer Science department in Bar-Ilan University is named Krembot.
 
 
 ## Installation
 1. **Prerequisite:** Linux OS. Simulation was tested on Linux Ubuntu 16.04.6 LTS/Mint 18.4.
 2. **ARGoS Core:** The core of the ARGoS Simulator. You can download it from https://www.argos-sim.info/core.php and install it.
 3. **krembot_sim:** A physics-based 3D simulator for Robotican's Krembot robot. You can download it from https://bitbucket.org/galk-opensource/krembot_sim/src/master/ and install it according to the instructions written in the link.
-4. **krembot_ws:** This is the workspace of the krembot. You can download it from this repository, or create one of your own by copy the directory "krembot_ws" from "krembot_sim" to a path as you wish.
+4. **krembot_ws:** This is the workspace of the krembot. You can download it from this repository, or create one of your own by copying the directory "krembot_ws" from "krembot_sim" to a path as you wish.
 
 
 ## Configurations
