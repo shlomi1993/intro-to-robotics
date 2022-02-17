@@ -24,7 +24,7 @@ In this repository you can find implementations in C++ of Krembots behaviors for
 
 
 ## Configurations
-A mission or experiment are defined by _.argos_ files that are kind of XMLs that setting up the arena, its size, obstacles in it and other experiment preferences. For each mission/experiment/exercise, there is an _.argos_ file in the directory krembot_ws/config. The _.argos_ file is referencing C++ files that defines Krembots' behaviors.
+An experiment is defined by _.argos_ files that are kind of XMLs that setting up the arena, its size, obstacles in it and other experiment preferences. For each mission/experiment/exercise, there is an _.argos_ file in the directory krembot_ws/config. The _.argos_ file is referencing C++ files that defines Krembots' behaviors.
 
 To run an experiment use the command:
 > $ argos 3 -c <_config_>
@@ -33,13 +33,13 @@ where <_config_> should be replaced by the path to the _.argos_ file that define
 
 
 ## Controllers
-As was said before, Krembots' behaviors are defined by C++ files. A C++ program that defines behavior of a Krembot for a specific task is named "Controller". A controller usually contains a _.cpp_ source file, a _.h/.hpp_ header file, a _CMakeLists.txt_ file, and maybe other supportive files. Each mission/experiment requires a krembot's controller to make the krembots behave in such a way that they will fulfill their task. The controllers are located in "krembot_ws/controllers". Each experiments has its own controller, referenced by its unique _.argos_ file.
+As was said before, Krembots' behaviors are defined by C++ files. A C++ program that defines behavior of a Krembot to perform a specific task is named "Controller". A controller usually contains a _.cpp_ source file, a _.h/.hpp_ header file, a _CMakeLists.txt_ file, and maybe other supportive files. Each mission/experiment requires a krembot's controller to make the krembots behave in such a way that they will fulfill their task. The controllers are located in "krembot_ws/controllers". Each experiments has its own controller, referenced by its unique _.argos_ file.
 
 
 ## Exercise 1 - Warmup
-This exercise is a warm-up exercise only. It is designed to install the working environment and to make sure all the simulator components are working properly. As part of this exercise, we have implemented a simple controller code that causes the kremboot to drive straight and stop about 15 meters from an obstacle in front.
+This exercise is a warm-up exercise only. It is designed for installing the working environment and making sure all the simulator components are working properly. As part of this exercise, me and my partner have implemented a simple controller code that causes the kremboot to drive straight and stop about 15 meters from an obstacle in front.
 
-Experiment's definition:
+Configuration:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/ex1.argos
 
 Controller:
@@ -66,7 +66,7 @@ In addition, it is recommended to make sure that the following controller exampl
 
 In this exercise we have implemented a coverage algorithm that let the krembot wander around randomly in strait lines until most of the arena is covered.
 
-Experiment's definition: 
+Configuration: 
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/ex2.argos
 
 Controller:
@@ -83,7 +83,7 @@ To run the experiment, navigate to krembot_ws directory, and run the command:
 
 In this exercise we have implemented an algorithm that let the Krembot navigate from the starting position (1,1) to the goal position (-2,-2) using Probabilistic Roadmap, or PRM. We will describe the setup and loop functions, the positions sampling method, the distance metric, the use of KNN and KD-Tree data structure, the shortest path algorithm, and the robot's feedback-control. 
 
-Experiment's definition:
+Configuration:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/PRM.argos
 
 Controller:
@@ -104,10 +104,10 @@ Adversarial Foraging tournament where we competed with other classmates and won 
 **Presentation:** We had to present our strategy and red team to the class sevral days before the tournament, means we could change out strategy after the presentation. Here are the slides:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Presentation.pdf
 
-Experiment's original definition:
+Experiment's original configuration:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/tournament.argos
 
-But for developing our algotirhm using red team we used the custom definition:
+But for developing our algotirhm using red team we used a custom configuration:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/tournament_redteam.argos
 
 Blue Team Controller:
