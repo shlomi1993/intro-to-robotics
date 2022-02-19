@@ -2,9 +2,6 @@
 
 Introduction to Robotics is a course I took at Bar-Ilan University as part of Computer Science (B.Sc) studies. The course was about theoretical computer science problems in the field of robotics.
 
-## 3-Tier Architecture
-![image](https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png)
-
 
 ## Description
 In this repository you can find implementations in C++ of Krembots behaviors for ARGoS simulator.
@@ -18,6 +15,16 @@ In this repository you can find implementations in C++ of Krembots behaviors for
 **Krembot Simulator** is a physics-based 3D simulator for Robotican's Krembot robot. Original code by Elhay Rauper for Bar Ilan University and the ISF Smart Swarms center. Uses and modifies (and adds to) the Argos multi-robot simulator.
 
 **Note:** In ARGoS, the software component that simulates a real robot is named Footbot. The Footbot version of Computer Science department in Bar-Ilan University is named Krembot.
+
+
+## 3-Tier Architecture
+
+3-Tier architecture (also named 3-Layer or simply 3T) is a basic robotic architecture that consists of 3 hierarchical layers that are Planner, Execution and Control, and another component that interact with every layer named Sensing.  
+<img src=https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png width=50% height=50%></img>  
+- **Planner** - Responsible for mission planning in high-level while using heavy computations.
+- **Execution** - "The Boss". Responsible for managing robot activity. Requests plan from the planner, and transmits commands to the Control.
+- **Control** - Responsible for low-level actuators control and report the Execution for successes or failures.
+- **Sensing** - Responsible for measuring states of the environments and the robot itself and optimizing sensing-data by modeling and filtering. Sensing information is transmitted to any layer that asks for information.
 
 
 ## Installation
