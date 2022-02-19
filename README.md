@@ -2,6 +2,10 @@
 
 Introduction to Robotics is a course I took at Bar-Ilan University as part of Computer Science (B.Sc) studies. The course was about theoretical computer science problems in the field of robotics.
 
+## 3-Tier Architecture
+![image](https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png)
+
+
 ## Description
 In this repository you can find implementations in C++ of Krembots behaviors for ARGoS simulator.
 
