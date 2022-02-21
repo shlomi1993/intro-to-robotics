@@ -92,7 +92,40 @@ To run the experiment, navigate to krembot_ws directory, and run the command:
 
 ## Exercise 3 - Navigation with PRM
 
-In this exercise we have implemented an algorithm that let the Krembot navigate from the starting position (1,1) to the goal position (-2,-2) using Probabilistic Roadmap, or PRM. We will describe the setup and loop functions, the positions sampling method, the distance metric, the use of KNN and KD-Tree data structure, the shortest path algorithm, and the robot's feedback-control. 
+In this exercise we have implemented an algorithm that let the Krembot navigate from the starting position (1,1) to the goal position (-2,-2) using Probabilistic Roadmap, or PRM.
+
+### Probabilistic Roadmap
+
+Let's describe the PRM process shortly:  
+
+Assume we are given a representation of the world by a grid of zeros and ones, where zeros represents vacant points and ones represents obstacles.  
+![Navigation (1)](https://user-images.githubusercontent.com/72878018/154929046-56606068-257a-41dc-811b-4d2680f01351.jpg)
+
+We would like to set our initial position and goal as S and G respectively  
+![Navigation (2)](https://user-images.githubusercontent.com/72878018/154929374-48795410-19c3-47b6-bc70-25734d58f384.jpg)
+Although PRM is better for general planning and RRT is a better algorithm for a specific planning.  
+  
+In reality (and even in the simulator), the robot is not a single point in space, but rather it occupies a certain area. But we still want to represent it as a point in order to use a shortest-path algorithm such as Dijkstra. Thus, we would like to inflate the obstacles using Minkowski Sum.  
+For further reading about Minkowsky Sum technique: https://en.wikipedia.org/wiki/Minkowski_addition  
+![Navigation (3)](https://user-images.githubusercontent.com/72878018/154930540-c14e22e3-adee-442a-a9f1-1f93b9d5758b.jpg)
+
+Now, we would like to lower the resolution of the grid, as it is very large, and computations based on it may take a long time. A lower resolution grid can be sufficient.  
+![Navigation (4)](https://user-images.githubusercontent.com/72878018/154931672-b975313c-97da-4f34-b6e2-9f232c85d76b.jpg)
+
+Than we got:
+![Navigation (5)](https://user-images.githubusercontent.com/72878018/154931727-3584b9d8-5b40-4ae4-b3f5-a8594aa7267f.jpg)
+
+Now, we need to sample N points and construct a graph whose vertices are these points and whose edges are any two vertices that see each other.  
+![Navigation (6)](https://user-images.githubusercontent.com/72878018/154932025-28ead9e5-fa71-454f-89cf-684ae4d1d93a.jpg)  
+- Each point is inserted to a KD-Node.
+- Than we can calculate Adj-Matrix using KNN algorithm and KD-Tree data-structure.
+
+Now we can use a shortest-path algorithm such as Dijkstra (which is also recommended for efficiency), and get the following path:
+![Navigation (7)](https://user-images.githubusercontent.com/72878018/154932746-69285ae3-4dbf-418d-8bcb-e5360d311829.jpg)
+
+And the results:
+![Navigation (8)](https://user-images.githubusercontent.com/72878018/154933954-47795105-6f95-49b3-9fce-eb7acceec34d.jpg)
+
 
 Configuration:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/PRM.argos
@@ -110,7 +143,11 @@ To run the experiment, navigate to krembot_ws directory, and run the command:
 ## Exercise 4 - Foraging Tournament
 
 In this exercise we have implemented an algorithm that let the Krembot forage in an unknown arena without using its current position. We used this algorithm in an
-Adversarial Foraging tournament where we competed with other classmates and won the 2nd place out of 18 teams. Our team number was 1. To improve our algorithm to a level it could compete in the tournament, we used the red team. That is, we have developed another algorithm that is supposed to simulate an opponent and compete with our original algorithm that is now called blue team. When the red team defeated the blue team, we improved the blue team, but when the red team won significantly, we turned it into a blue team and developed a new red team.
+Adversarial Foraging tournament where we competed with other classmates and won the 2nd place out of 20 teams. Our team number was 1. To improve our algorithm to a level it could compete in the tournament, we used the red team. That is, we have developed another algorithm that is supposed to simulate an opponent and compete with our original algorithm that is now called blue team. When the red team defeated the blue team, we improved the blue team, but when the red team won significantly, we turned it into a blue team and developed a new red team.
+
+### Finite State Machine
+The following FSM describes out foraging strategy:  
+![image](https://user-images.githubusercontent.com/72878018/154927899-f619f893-8d7b-41fa-b39e-c9847abbff7b.png)  
 
 **Presentation:** We had to present our strategy and red team to the class sevral days before the tournament, means we could change out strategy after the presentation. Here are the slides:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Presentation.pdf
