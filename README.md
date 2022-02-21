@@ -20,7 +20,7 @@ In this repository you can find implementations in C++ of Krembots behaviors for
 ## 3-Tier Architecture
 
 3-Tier architecture (also named 3-Layer or simply 3T) is a basic robotic architecture that consists of 3 hierarchical layers that are Planner, Execution and Control, and another component that interact with every layer named Sensing.  
-<img src=https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png width=50% height=50%></img>  
+<img src=https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png></img>  
 - **Planner** - Responsible for mission planning in high-level while using heavy computations.
 - **Execution** - "The Boss". Responsible for managing robot activity. Requests plan from the planner, and transmits commands to the Control.
 - **Control** - Responsible for low-level actuators control and report the Execution for successes or failures.
