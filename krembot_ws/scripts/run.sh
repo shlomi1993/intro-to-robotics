@@ -12,7 +12,7 @@ unset ARGOS_PLUGIN_PATH
 if [ "$1" == "warmup" ]
 then
 	argos3 -c ./config/ex1.argos
-elif [ "$1" == "wanderbot" ]
+elif [ "$1" == "coverage" ]
 then
 	argos3 -c ./config/ex2.argos
 elif [ "$1" == "navigation" ]
