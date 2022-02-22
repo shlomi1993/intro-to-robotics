@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/178/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/180/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/178/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/180/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ include controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/pro
 
 controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target foraging_redteam"
-	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_redteam && /snap/clion/178/bin/cmake/linux/bin/cmake -E cmake_autogen /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/AutogenInfo.json Debug
+	cd /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_redteam && /snap/clion/180/bin/cmake/linux/bin/cmake -E cmake_autogen /home/shlomi/Documents/GitHub/Intro-to-Robotics/krembot_ws/cmake-build-debug/controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/AutogenInfo.json Debug
 
 foraging_redteam_autogen: controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen
 foraging_redteam_autogen: controllers/foraging_redteam/CMakeFiles/foraging_redteam_autogen.dir/build.make
