@@ -20,7 +20,7 @@ In this repository you can find implementations in C++ of Krembots behaviors for
 ## 3-Tier Architecture
 
 3-Tier architecture (also named 3-Layer or simply 3T) is a basic robotic architecture that consists of 3 hierarchical layers that are Planner, Execution and Control, and another component that interact with every layer named Sensing.  
-<img src=https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png></img>  
+<img src=https://user-images.githubusercontent.com/72878018/154807058-8cbfbfda-3692-4328-98c2-41d90b365e14.png width=700></img>  
 - **Planner** - Responsible for mission planning in high-level while using heavy computations.
 - **Execution** - "The Boss". Responsible for managing robot activity. Requests plan from the planner, and transmits commands to the Control.
 - **Control** - Responsible for low-level actuators control and report the Execution for successes or failures.
@@ -87,7 +87,7 @@ For the full report:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex2_Report.pdf
 
 To run the experiment, navigate to krembot_ws directory, and run the command:
-> $ scripts/run.sh wanderbot
+> $ scripts/run.sh coverage
 
 
 ## Exercise 3 - Navigation with PRM
@@ -99,33 +99,32 @@ In this exercise we have implemented an algorithm that let the Krembot navigate 
 Let's describe the PRM process shortly:  
 
 Assume we are given a representation of the world by a grid of zeros and ones, where zeros represents vacant points and ones represents obstacles.  
-![Navigation (1)](https://user-images.githubusercontent.com/72878018/154929046-56606068-257a-41dc-811b-4d2680f01351.jpg)
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154929046-56606068-257a-41dc-811b-4d2680f01351.jpg width=600></img></kbd>  
 
 We would like to set our initial position and goal as S and G respectively  
-![Navigation (2)](https://user-images.githubusercontent.com/72878018/154929374-48795410-19c3-47b6-bc70-25734d58f384.jpg)
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154929374-48795410-19c3-47b6-bc70-25734d58f384.jpg width=600></img></kbd>  
 Although PRM is better for general planning and RRT is a better algorithm for a specific planning.  
-  
+
 In reality (and even in the simulator), the robot is not a single point in space, but rather it occupies a certain area. But we still want to represent it as a point in order to use a shortest-path algorithm such as Dijkstra. Thus, we would like to inflate the obstacles using Minkowski Sum.  
 For further reading about Minkowsky Sum technique: https://en.wikipedia.org/wiki/Minkowski_addition  
-![Navigation (3)](https://user-images.githubusercontent.com/72878018/154930540-c14e22e3-adee-442a-a9f1-1f93b9d5758b.jpg)
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154930540-c14e22e3-adee-442a-a9f1-1f93b9d5758b.jpg width=600></img></kbd>  
 
 Now, we would like to lower the resolution of the grid, as it is very large, and computations based on it may take a long time. A lower resolution grid can be sufficient.  
-![Navigation (4)](https://user-images.githubusercontent.com/72878018/154931672-b975313c-97da-4f34-b6e2-9f232c85d76b.jpg)
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154931672-b975313c-97da-4f34-b6e2-9f232c85d76b.jpg width=600></img></kbd>  
 
-Than we got:
-![Navigation (5)](https://user-images.githubusercontent.com/72878018/154931727-3584b9d8-5b40-4ae4-b3f5-a8594aa7267f.jpg)
+Than we got:  
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154931727-3584b9d8-5b40-4ae4-b3f5-a8594aa7267f.jpg width=600></img></kbd>  
 
 Now, we need to sample N points and construct a graph whose vertices are these points and whose edges are any two vertices that see each other.  
-![Navigation (6)](https://user-images.githubusercontent.com/72878018/154932025-28ead9e5-fa71-454f-89cf-684ae4d1d93a.jpg)  
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154932025-28ead9e5-fa71-454f-89cf-684ae4d1d93a.jpg width=600></img></kbd>  
 - Each point is inserted to a KD-Node.
 - Than we can calculate Adj-Matrix using KNN algorithm and KD-Tree data-structure.
 
-Now we can use a shortest-path algorithm such as Dijkstra (which is also recommended for efficiency), and get the following path:
-![Navigation (7)](https://user-images.githubusercontent.com/72878018/154932746-69285ae3-4dbf-418d-8bcb-e5360d311829.jpg)
+Now we can use a shortest-path algorithm such as Dijkstra (which is also recommended for efficiency), and get the following path:  
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154932746-69285ae3-4dbf-418d-8bcb-e5360d311829.jpg width=600></img></kbd>  
 
-And the results:
-![Navigation (8)](https://user-images.githubusercontent.com/72878018/154933954-47795105-6f95-49b3-9fce-eb7acceec34d.jpg)
-
+And the results:  
+<kbd><img src=https://user-images.githubusercontent.com/72878018/154933954-47795105-6f95-49b3-9fce-eb7acceec34d.jpg width=600></img></kbd>  
 
 Configuration:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/krembot_ws/config/PRM.argos
@@ -147,7 +146,7 @@ Adversarial Foraging tournament where we competed with other classmates and won 
 
 ### Finite State Machine
 The following FSM describes out foraging strategy:  
-![image](https://user-images.githubusercontent.com/72878018/154927899-f619f893-8d7b-41fa-b39e-c9847abbff7b.png)  
+<img src=https://user-images.githubusercontent.com/72878018/154927899-f619f893-8d7b-41fa-b39e-c9847abbff7b.png width=600></img>  
 
 **Presentation:** We had to present our strategy and red team to the class sevral days before the tournament, means we could change out strategy after the presentation. Here are the slides:
 > https://github.com/shlomi1993/Intro-to-Robotics/blob/main/reports/Robotics_ex4_Presentation.pdf
