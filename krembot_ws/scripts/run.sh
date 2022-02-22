@@ -12,7 +12,7 @@ unset ARGOS_PLUGIN_PATH
 if [ "$1" == "warmup" ]
 then
 	argos3 -c ./config/ex1.argos
-elif [ "$1" == "wanderbot" ]
+elif [ "$1" == "coverage" ]
 then
 	argos3 -c ./config/ex2.argos
 elif [ "$1" == "navigation" ]
@@ -29,23 +29,18 @@ then
 elif [ "$1" == "mixed_controllers" ]
 then
 	argos3 -c ./config/mixed_controllers.argos
-fi
 elif [ "$1" == "porting_example" ]
 then
 	argos3 -c ./config/porting_example.argos
-fi
 elif [ "$1" == "run_away_by_bumpers" ]
 then
 	argos3 -c ./config/run_away_by_bumpers.argos
-fi
 elif [ "$1" == "run_away_by_bumpers_multiple" ]
 then
 	argos3 -c ./config/run_away_by_bumpers_multiple.argos
-fi
 elif [ "$1" == "sand_timer_test" ]
 then
 	argos3 -c ./config/sand_timer_test.argos
-fi
 elif [ "$1" == "simple_demo" ]
 then
 	argos3 -c ./config/simple_demo.argos
