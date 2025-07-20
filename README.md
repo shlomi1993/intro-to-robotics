@@ -1,4 +1,4 @@
-# Intro-to-Robotics
+# Introduction to Robotics
 
 Introduction to Robotics is a course I took at Bar-Ilan University as part of Computer Science (B.Sc) studies. The course was about theoretical computer science problems in the field of robotics.
 
